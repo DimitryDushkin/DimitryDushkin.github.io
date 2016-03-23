@@ -18,8 +18,13 @@ modules.define('game', ['i-bem__dom', 'stage', 'hero'], function(provide, BEM) {
         },
 
         _onCellClick: function(e, cellEl) {
-            var x = $(cellEl).offset().left,
-                y = $(cellEl).offset().top;
+            var x = cellEl.offset().left,
+                y = cellEl.offset().top,
+                type = cellEl.data('type');
+
+            if (type === 'door') {
+                // ???
+            }
 
             this.hero.move(x, y);
         }
@@ -30,70 +35,29 @@ modules.define('game', ['i-bem__dom', 'stage', 'hero'], function(provide, BEM) {
 
 modules.define('stage', ['i-bem__dom', 'BEMHTML'], function(provide, BEM, BEMHTML) {
     var stageData = [
-        [
-            { type: 'wall' },
-            { type: 'hall' },
-            { type: 'wall' },
-            { type: 'wall' },
-            { type: 'wall' },
-            { type: 'wall' },
-            { type: 'wall' }
-        ],
-        [
-            { type: 'wall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'wall' }
-        ],
-        [
-            { type: 'wall' },
-            { type: 'rock' },
-            { type: 'rock' },
-            { type: 'rock' },
-            { type: 'rock' },
-            { type: 'hall' },
-            { type: 'wall' }
-        ],
-        [
-            { type: 'wall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'wall' }
-        ],
-        [
-            { type: 'wall' },
-            { type: 'hall' },
-            { type: 'rock' },
-            { type: 'rock' },
-            { type: 'rock' },
-            { type: 'rock' },
-            { type: 'wall' }
-        ],
-        [
-            { type: 'wall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'hall' },
-            { type: 'wall' }
-        ],
-        [
-            { type: 'wall' },
-            { type: 'wall' },
-            { type: 'wall' },
-            { type: 'wall' },
-            { type: 'wall' },
-            { type: 'door', name: 'touch3Buttons' },
-            { type: 'wall' }
-        ]
+        [ '-',  '0',    '-',    '-',    '-',    '-',    '-' ],
+        [ '-',  '0',    '0',    '0',    '0',    '0',    '-' ],
+        [ '-',  '+',    '+',    '+',    '+',    '0',    '-' ],
+        [ '-',  '0',    '0',    '0',    '0',    '0',    '-' ],
+        [ '-',  '0',    '+',    '+',    '+',    '+',    '-' ],
+        [ '-',  '0',    '0',    '0',    '0',    '0',    '-' ],
+        [ '-',  '-',    '-',    '-',    '-',    'd-btn','-' ]
     ];
+
+    function getType(sign) {
+        var door;
+
+        switch (sign) {
+            case '-': return 'wall';
+            case '0': return 'hall';
+            case '+': return 'rock';
+        }
+
+        door = sign.match(/d\-(.*)/)[1];
+        if (door) {
+            return 'door';
+        }
+    }
 
     BEM.decl('stage', {
         onSetMod: {
@@ -116,10 +80,15 @@ modules.define('stage', ['i-bem__dom', 'BEMHTML'], function(provide, BEM, BEMHTM
                         style: 'height: ' + cellSize + 'px'
                     },
                     content: row.map(function(cell) {
+                        var type = getType(cell);
+
                         return {
                             elem: 'cell',
-                            elemMods: { type: cell.type },
-                            attrs: { 'data-type': cell.type }
+                            elemMods: { type: type },
+                            attrs: {
+                                'data-type': type,
+                                'data-door': type === 'door' ? cell : ''
+                            }
                         };
                     })
                 };
