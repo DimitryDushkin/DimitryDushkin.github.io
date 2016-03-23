@@ -1,0 +1,47 @@
+.game {
+    position: relative;
+}
+
+.stage__row {
+    display: flex;
+    /*white-space: nowrap;*/
+}
+
+.stage__cell {
+    display: inline-block;
+    flex-grow: 1;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.stage__cell_type_wall {
+    background-color: #63412C;
+}
+
+.stage__cell_type_hall {
+    background-color: #A39FA5;
+}
+
+.stage__cell_type_door {
+    background: #A39FA5 url('img/door.png') no-repeat center center;
+    background-size: cover;
+}
+
+.stage__cell_type_rock {
+    background: #A39FA5 url('img/rock.png') no-repeat center center;
+    background-size: contain;
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: url('img/hero-stay.png') no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    flex-grow: 1;
+
+    transition: transform .3s;
+
+    will-change: transform;
+}
