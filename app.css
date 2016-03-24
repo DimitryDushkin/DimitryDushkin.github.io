@@ -61,7 +61,7 @@
 
 .door-btn__btn {
     position: absolute;
-    top: 450px;
+    top: 50vh;
     width: 32px;
     height: 32px;
     border-radius: 32px;
