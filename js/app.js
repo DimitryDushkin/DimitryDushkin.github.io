@@ -159,9 +159,11 @@ modules.define('door-btn', ['i-bem__dom'], function(provide, BEM) {
                 }
             });
 
-            if (btnPressed === 3){
-                alert('DOOR OPENED');
-            }
+            setTimeout(function() {
+                if (btnPressed === 3){
+                    alert('DOOR OPENED');
+                }
+            }, 200);
 
         },
 
