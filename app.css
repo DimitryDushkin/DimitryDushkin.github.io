@@ -69,8 +69,7 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
 }
 
-.door-btn__btn:focus,
-.door-btn__btn:hover {
+.door-btn__btn_pressed {
     background-color: #F3E5D9;
 }
 

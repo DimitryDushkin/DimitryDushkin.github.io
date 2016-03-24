@@ -151,6 +151,7 @@ modules.define('door-btn', ['i-bem__dom'], function(provide, BEM) {
         _onBtnPointerDown: function(e) {
             var btnPressed = 0;
             $(e.target).data('pressed', true);
+            $(e.target).addClass('door-btn__btn_pressed');
 
             this.buttons.map(function(i, btn) {
                 if ($(btn).data('pressed')) {
@@ -166,6 +167,7 @@ modules.define('door-btn', ['i-bem__dom'], function(provide, BEM) {
 
         _onBtnPointerUp: function(e) {
             $(e.target).data('pressed', false);
+            $(e.target).removeClass('door-btn__btn_pressed');
         }
     });
 
