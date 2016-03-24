@@ -45,3 +45,42 @@
 
     will-change: transform;
 }
+
+.door-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 80vw;
+    height: 80vh;
+    background: #A39FA5 url('img/door-btn.jpg') no-repeat center center;
+    background-size: cover;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+.door-btn__btn {
+    position: absolute;
+    top: 450px;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: #583319;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+.door-btn__btn:focus,
+.door-btn__btn:hover {
+    background-color: #F3E5D9;
+}
+
+.door-btn__btn_n_1 {
+    left: 10%;
+}
+
+.door-btn__btn_n_2 {
+    left: 46%;
+}
+.door-btn__btn_n_3 {
+    left: 80%;
+}

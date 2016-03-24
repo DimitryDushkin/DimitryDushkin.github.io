@@ -5,6 +5,7 @@ modules.define('game', ['i-bem__dom', 'stage', 'hero'], function(provide, BEM) {
                 inited: function() {
                     this.stage = this.findBlockInside('stage');
                     this.hero = this.findBlockInside('hero');
+                    this.btnDoor = this.findBlockInside('door-btn');
 
                     var cellSize = this.stage.getCellSize();
 
@@ -18,12 +19,12 @@ modules.define('game', ['i-bem__dom', 'stage', 'hero'], function(provide, BEM) {
         },
 
         _onCellClick: function(e, cellEl) {
-            var x = cellEl.offset().left,
-                y = cellEl.offset().top,
-                type = cellEl.data('type');
+            var x = cellEl.offsetLeft,
+                y = cellEl.offsetTop,
+                type = $(cellEl).data('type');
 
             if (type === 'door') {
-                // ???
+                this.btnDoor.show();
             }
 
             this.hero.move(x, y);
@@ -130,9 +131,42 @@ modules.define('hero', ['i-bem__dom'], function(provide, BEM) {
     provide();
 });
 
-modules.define('door', ['i-bem__dom'], function(provide, BEM) {
+modules.define('door-btn', ['i-bem__dom'], function(provide, BEM) {
 
-    BEM.decl('door', {
+    BEM.decl('door-btn', {
+        onSetMod: {
+            js: {
+                inited: function() {
+                    this.buttons = this.elem('btn');
+                    this.bindTo('btn', 'pointerdown', this._onBtnPointerDown);
+                    this.bindTo('btn', 'pointerup', this._onBtnPointerUp);
+                }
+            }
+        },
+
+        show: function() {
+            this.domElem.fadeIn();
+        },
+
+        _onBtnPointerDown: function(e) {
+            var btnPressed = 0;
+            $(e.target).data('pressed', true);
+
+            this.buttons.map(function(i, btn) {
+                if ($(btn).data('pressed')) {
+                    btnPressed++;
+                }
+            });
+
+            if (btnPressed === 3){
+                alert('DOOR OPENED');
+            }
+
+        },
+
+        _onBtnPointerUp: function(e) {
+            $(e.target).data('pressed', false);
+        }
     });
 
     provide();
