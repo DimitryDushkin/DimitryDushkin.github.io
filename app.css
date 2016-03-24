@@ -51,7 +51,7 @@
     top: 0;
     left: 0;
     display: none;
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
     background: #A39FA5 url('img/door-btn.jpg') no-repeat center center;
     background-size: cover;
@@ -62,9 +62,9 @@
 .door-btn__btn {
     position: absolute;
     top: 50vh;
-    width: 32px;
-    height: 32px;
-    border-radius: 32px;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
     background-color: #583319;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
 }
@@ -75,12 +75,12 @@
 }
 
 .door-btn__btn_n_1 {
-    left: 10%;
+    left: 0%;
 }
 
 .door-btn__btn_n_2 {
-    left: 46%;
+    left: calc(50% - 32px);
 }
 .door-btn__btn_n_3 {
-    left: 80%;
+    left: calc(100% - 64px);
 }
