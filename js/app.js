@@ -1,38 +1,38 @@
-new App(document.querySelector('.app'));
-
+/**
+ * @class App
+ * @param {Element} el
+ */
 function App(el) {
     var appEl = el,
         doors = [
-            new Door(0, this.onOpen)
+            new Door0(0, onUnlock),
+            new Door1(1, onUnlock),
+            new Door2(2, onUnlock),
+            new Box(3, onUnlock)
         ];
 
-    function onOpen() {
-        // redraw state
+    this.doors = doors;
+
+    /**
+     * Callback вызывается в коде двери
+     * Тут даем возможность открыть следующие двери
+     */
+    function onUnlock() {
+        var previousUnlocked;
+
+        // Даем открыть следующую дверь
+        for (var i = 0; i < doors.length; i++) {
+            if (!doors[i].isLocked) {
+                previousUnlocked = true;
+            } else {
+                if (previousUnlocked && doors[i].isLocked) {
+                    doors[i].enable();
+                    break;
+                }
+            }
+        }
     };
 }
 
-function Door(number, onOpen) {
-    var level = document.querySelector('.level_' + number),
-        door = document.querySelector('.door_level_' + number),
-        popup = document.querySelector('.popup_level_' + number),
-        close = popup.querySelector('.popup__close');
-
-    door.addEventListener('click', onDoorClick);
-    close.addEventListener('click', onCloseClick);
-
-    function onDoorClick() {
-        openPopup();
-    }
-
-    function onCloseClick() {
-        closePopup();
-    }
-
-    function openPopup() {
-        popup.classList.remove('popup_hidden');
-    }
-
-    function closePopup() {
-        popup.classList.add('popup_hidden');
-    }
-}
+// Start the app
+var app = new App(document.querySelector('.app'));
