@@ -1,17 +1,1 @@
-.idea
-node_modules/
-libs/
-
-npm-debug.log
-
-# bem
-.enb/tmp/
-front/*.bundles*/*/*.*
-!front/*.bundles*/*/*.bemdecl.js
-!front/*.bundles*/*/*.woff
-!front/*.bundles*/*/*.ttf
-!front/*/libs
-front/*.bundles*/*/*.bemhtml.bemdecl.js
 .DS_Store
-tmp
-*.min.*

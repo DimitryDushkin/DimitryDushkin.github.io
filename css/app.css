@@ -1,0 +1,117 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #ACC0C1;
+}
+
+.container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.level {
+    position: relative;
+    min-width: 320px;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.level_0 {
+    background-image: url(../img/level_0_bg.jpg);
+    height: 180px;
+}
+
+.level_1 {
+    background-image: url(../img/level_1_bg.png);
+    height: 235px;
+}
+
+.level_2 {
+    background-image: url(../img/level_2_bg.png);
+    height: 235px;
+}
+
+.level_3 {
+    background-image: url(../img/level_3_bg.png);
+    height: 235px;
+}
+
+.level_4 {
+    background-image: url(../img/level_4_bg.png);
+    height: 75px;
+}
+
+.door {
+    position: absolute;
+    bottom: 0;
+    background: url(../img/door.png) no-repeat top left;
+    width: 64px;
+    height: 100px;
+
+    cursor: pointer;
+}
+
+.door_level_0 {
+    right: 2%;
+}
+
+.door_level_1 {
+    left: 2%;
+}
+
+.door_level_2 {
+    right: 2%;
+}
+
+.box {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+
+    background: url('../img/box.png') no-repeat top left;
+    width: 32px;
+    height: 32px;
+
+    cursor: pointer;
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    background-color: rgba(0,0,0,.3);
+    transition: opacity .3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_hidden {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.popup__content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 300px;
+    background-color: red;
+}
+
+.popup__close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
+
+    cursor: pointer;
+}
