@@ -6,6 +6,7 @@ A starter repository for building a blog with the [Eleventy static site generato
 
 Based on the awesome [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
 
+
 ## Demo
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgoogle%2Feleventy-high-performance-blog)
