@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Tech blog</title>
+	<subtitle>Subtitle. Update me.</subtitle>
+	
+	<link href="https://update-me.com/feed/feed.xml" rel="self"/>
+	<link href="https://update-me.com"/>
+	<updated>2022-10-30T00:00:00-00:00</updated>
+	<id>https://update-me.com</id>
+	<author>
+		<name>Dmitrii Dushkin</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>My productivity tools</title>
+		<link href="https://update-me.com/posts/firstpost/"/>
+		<updated>2022-10-30T00:00:00-00:00</updated>
+		<id>https://update-me.com/posts/firstpost/</id>
+		<content type="html">
+		  &lt;p&gt;I like to make my everyday work and life-related tasks faster: taking notes, remembering passwords, arranging windows and maintain things to do.&lt;br&gt;
+I want to share software and a bit of hardware gems I found during 20+ years of sharpening the &amp;quot;[[Second brain]]&amp;quot; blade. For me, it&#39;s also an opportunity to reflect.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most of the time, I use Apple devices and very little — Windows, so keep this in mind, and I&#39;ll try to highlight if there is a Windows version of the software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;tldr&quot;&gt;TLDR &lt;a class=&quot;direct-link&quot; href=&quot;#tldr&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remember things:
+&lt;ul&gt;
+&lt;li&gt;Apple Reminder&lt;/li&gt;
+&lt;li&gt;Apple Notes&lt;/li&gt;
+&lt;li&gt;Google Calendar&lt;/li&gt;
+&lt;li&gt;MacPass&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Personal Knowledge Management:
+&lt;ul&gt;
+&lt;li&gt;Notion&lt;/li&gt;
+&lt;li&gt;Obsidian&lt;/li&gt;
+&lt;li&gt;LucidChart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;System control:
+&lt;ul&gt;
+&lt;li&gt;Raycast&lt;/li&gt;
+&lt;li&gt;Lunar&lt;/li&gt;
+&lt;li&gt;ITerm 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Other
+&lt;ul&gt;
+&lt;li&gt;Keyboards: NuPhy Air 60 and Dygma Raise&lt;/li&gt;
+&lt;li&gt;Yandex.Disk&lt;/li&gt;
+&lt;li&gt;Timeout&lt;/li&gt;
+&lt;li&gt;Grammarly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;remember-things&quot;&gt;Remember things &lt;a class=&quot;direct-link&quot; href=&quot;#remember-things&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Apple Reminder&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Using reminders as is. I often use Siri to create a reminder like &amp;quot;Hey Siri, remind me in 5 hours to scan a document&amp;quot;. A cool benefit of the highly-coupled Apple eco-system.&lt;/li&gt;
+&lt;li&gt;Also using it to keep lists of:
+&lt;ul&gt;
+&lt;li&gt;Books to read&lt;/li&gt;
+&lt;li&gt;Movies to watch&lt;/li&gt;
+&lt;li&gt;Games to play&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Platforms: macOS, iPadOS, iOS.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/reminder.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apple Notes&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Mostly using it for Quick Notes (TM). Again thanks to good integration with iOS and macOS, it&#39;s quite a convenient way to quickly write down a thought or save a link with comments. For instance, when exploring Unreal Engine 5, I often clicked on &amp;quot;Share&amp;quot; in the iOS YouTube app, shared the video via Notes, and added a small comment on what this video was about.&lt;/li&gt;
+&lt;li&gt;Sometimes, use it to draw some diagrams. Good enough for a rough sketch but hardly for sharing the result with someone else. Or I suck at drawing :)&lt;/li&gt;
+&lt;li&gt;I tried to use it as a main note-taking app, but it lacks many must-have features. Number one is interlinking between notes. On the good side, Apple started investing in it and recently, Apple added must-have things like tags or tables.&lt;/li&gt;
+&lt;li&gt;Platforms: macOS, iPadOS, iOS.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/notes.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://bear.app/&quot;&gt;Bear&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Honorable mention. I&#39;m not using it anymore because Apple Notes has become good enough for the same tasks. But still, it has one of the nicest UI and UX (user experience) I ever saw both desktop and mobile. It&#39;s still worth trying if Apple Notes already cover your needs, but you&#39;re looking for a bit more features like:
+&lt;ul&gt;
+&lt;li&gt;Natural markdown format for notes,&lt;/li&gt;
+&lt;li&gt;Notes interlinking (more on that later, but that&#39;s potentially a huge one!),&lt;/li&gt;
+&lt;li&gt;Themes!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Platforms: macOS, iPadOS, iOS.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/bear.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Calendar added to Apple Calendar&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Besides covering obvious needs like adding doctor appointments, birthdays, etc. I made a shared calendar with my relatives and added events like joint trips.&lt;/li&gt;
+&lt;li&gt;Tried to use it as a weekly schedule (set exact wake-up time, breakfast, work, gym, etc.), but it never lifted off. Maybe it&#39;s just a little too much &amp;quot;productivity&amp;quot; for me :), but if YouTube &amp;quot;productivity&amp;quot; experts are not lying to make more content, this kind of &amp;quot;full-scheduled life&amp;quot; works for some people.&lt;/li&gt;
+&lt;li&gt;Platforms: macOS, iPadOS, iOS, but Google Calendar itself can be integrated almost to every mail/calendar app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://macpassapp.org/&quot;&gt;MacPass&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;I use it to &lt;strong&gt;store credentials&lt;/strong&gt; to services. I love it for open-source and using local files as a database.&lt;/li&gt;
+&lt;li&gt;Database files are encrypted and stored in personal cloud storage.&lt;/li&gt;
+&lt;li&gt;There are a lot of more popular alternatives, but almost all of them are online services and engaging browser extension installation. Credentials are one of the most important pieces of a secure online presence, and I cannot afford to store them in 3rd party services, which can (theoretically) vanish the next day and take all my credentials with them.&lt;/li&gt;
+&lt;li&gt;Alternatives using the same database format are available on all platforms.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/macpass.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;personal-knowledge-management&quot;&gt;Personal Knowledge Management &lt;a class=&quot;direct-link&quot; href=&quot;#personal-knowledge-management&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Although Apple Notes and Reminders are also used for preserving some knowledge, they do not offer any suitable (for me) experience for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keeping long-lasting information,&lt;/li&gt;
+&lt;li&gt;Research and learning,&lt;/li&gt;
+&lt;li&gt;Writing long formats like articles or posts,&lt;/li&gt;
+&lt;li&gt;Exploring and finding connections between existing information,&lt;/li&gt;
+&lt;li&gt;Sharing information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And that&#39;s fine. Apple&#39;s apps are good at quick information capture (in terms of performance and smooth UX for common tasks), but not for things I mentioned above. I guess it&#39;s almost impossible to have everything in a single app. 🤷‍♂️&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;Notion&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;It&#39;s my primary app for capturing personal life-related info, i.e. tips for passing IELTS, physical exercises, medical information, learning materials, etc.&lt;/li&gt;
+&lt;li&gt;It has quite a simple way to share notes, which I&#39;m using for sharing information with relatives.&lt;/li&gt;
+&lt;li&gt;It has a cool UI around managing its databases and presents it in several ways (tables, kanban, etc.).
+&lt;ul&gt;
+&lt;li&gt;For instance was using it for gathering structured info about routers or notebooks before buying ones. Price, performance, average temperature, etc., are all important factors affecting buying decisions.&lt;/li&gt;
+&lt;li&gt;But truth be told, it could be more useful as advertised. At least I didn&#39;t find any other good scenarios for personal use. I tried keeping it in the database todo-list, but managing it took more time than giving a profit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pricing model is quite affordable. Free-tier also works (recently, they expanded it so you can have an unlimited number of notes).&lt;/li&gt;
+&lt;li&gt;Platforms: all.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/notion.png&quot; alt=&quot;notion&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;It&#39;s a new tool in my belt. They recently released a 1.0.0. It has MacOS, iOS (both iPhone and iPad versions) and Windows versions.&lt;/li&gt;
+&lt;li&gt;I&#39;m exploring ways of using it for research work and writing articles based on research. I guess it&#39;s just my habit from science days when I was gathering a lot of sources before doing anything and verifying that my work makes sense :)&lt;/li&gt;
+&lt;li&gt;There are several features which make Obisidian a much more suitable tool for research and long-format writing compared to Notion:
+&lt;ul&gt;
+&lt;li&gt;The major one is graph-like knowledge structuring support. Yes, you can put your notes in folders like Notion or Apple Notes, but that&#39;s not the main one.
+&lt;ul&gt;
+&lt;li&gt;Evangelists of graph-based solutions (sometimes called &amp;quot;[[Zattelcasten]]&amp;quot;) say that the natural way of thinking for our brain is a network of connections between pieces of information, not a hierarchical structure which Notion or Notes offer.&lt;/li&gt;
+&lt;li&gt;Practically speaking, this feature is more about habit than technology. You can quickly add links to other notes and see information about back-links (notes which refer to current note). And that&#39;s it! So you can think of it as a swift and responsive personal Wikipedia.&lt;/li&gt;
+&lt;li&gt;The habit is creating links to essential entities in the text while you are typing or reading. That&#39;s easy when you get used to it. You need to type &lt;code&gt;[[&lt;/code&gt; and start typing the term you&#39;re going to mention and see if there is an already existing note. If not, that&#39;s not a problem; leave it as a link. Obsidian will create an empty note for you, so next time will see at least that some pages refer to the corresponding note.&lt;/li&gt;
+&lt;li&gt;People also say that graph-representation of notes also helps to indent if hidden relationships between data which can be valuable.&lt;/li&gt;
+&lt;li&gt;Anyway. I have tried the tool briefly to say how it all works in practice. Will see. I like the concept so far.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The next one is that it&#39;s entirely local! So I can not worry about your data integrity to some degree. Also, it does search and linking very fast. And you get a natural offline mode (&lt;em&gt;cough-Notion-cough&lt;/em&gt;) :)&lt;/li&gt;
+&lt;li&gt;It&#39;s based on a markdown format, making migration or co-using notes in other apps (like Logseq) easy.&lt;/li&gt;
+&lt;li&gt;There are several helpful community plugins like better UX for creating tables, managing tasks, making UX more like an outline app, etc.&lt;/li&gt;
+&lt;li&gt;Themes, lots of them! Notion and Apple Notes lack this feature.&lt;/li&gt;
+&lt;li&gt;Obisidian give the option to create &lt;strong&gt;a daily note&lt;/strong&gt; and open it at the beginning of each day. At first, I didn&#39;t get the value of it, but now I realize that this default clean place for notes offers a smooth opportunity for any work/research-related notes. No need to spend brain energy to select a proper place for a new note. Just start typing a fresh idea, and later maybe you&#39;ll move it to the right place. People have [[a limited number of good choices made per day]], and this feature allows them to save one every day.&lt;/li&gt;
+&lt;li&gt;Notes can have custom properties, and some plugins allow to query these properties and generate nice tables, kanban tables, etc. Again I didn&#39;t find this helpful feature in Notion. Still, I like the idea of how it is naturally integrated into notes compared to Notion, where database entry is a different sort of data not related to the rest of the notes.&lt;/li&gt;
+&lt;li&gt;A cherry on top is a unique way of organizing multiple opened notes in the app — stacked view. It feels like real pieces of paper stacked on each other, and you slide them left and right to switch to the most useful now. Fantastic concept and I hope it will find more adoption in the future in other apps like Visual Studio Code or Web Browsers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The only issue is a pricing model. 8$ per month (96$ per year) is too much for built-in cloud syncing, which is useful if you use the app on multiple devices. I&#39;m using iCloud to store notes, which works great across Apple devices, but iCloud is not working in Windows. Also, 50$ per year for a commercial license with no additional features compared to a personal (free) license is a bit of a shame. Maybe after several months of the experiment, I will be convinced to buy a sync feature, though :)&lt;/li&gt;
+&lt;li&gt;Platforms: all.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/obisidian.png&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lucidchart&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;I used this app only for work since my employer provides a license for it. It&#39;s one of the best of its kind.&lt;/li&gt;
+&lt;li&gt;The power of diagrams in work life is a topic for another post. As a software engineer, I&#39;ve been making diagrams since university, and it&#39;s an amazing process helping creativity, problem-solving and documenting.&lt;/li&gt;
+&lt;li&gt;Previously, I used open-sourced &lt;strong&gt;&lt;a href=&quot;http://draw.io/&quot;&gt;Draw.io&lt;/a&gt;&lt;/strong&gt;, which is also great, but due to its open-source nature, it could be more advanced and polished and has a sharing capability.&lt;/li&gt;
+&lt;li&gt;Platforms: all.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/lucidchart.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;system-control&quot;&gt;System control &lt;a class=&quot;direct-link&quot; href=&quot;#system-control&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Raycast&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;A recent gem I found. It&#39;s an extensible MacOS Spotlight (the one you see on &amp;quot;Cmd + Space&amp;quot;).&lt;/li&gt;
+&lt;li&gt;It&#39;s quite the same as more mature &lt;a href=&quot;https://www.alfredapp.com/&quot;&gt;Alfred&lt;/a&gt;, but we with much more in free-pack and a more modern (IMHO) look.&lt;/li&gt;
+&lt;li&gt;Previously, I used two different apps for the same functions: Spectacle (prev. Rectangle) for windows management and Clipy for clipboard history.&lt;/li&gt;
+&lt;li&gt;I use it for:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clipboard history&lt;/strong&gt;. That&#39;s the most frequent feature I use. I also stored images in history with previews and allowed them to paste without formatting.&lt;/li&gt;
+&lt;li&gt;Windows Management: move a window to the left-right half, move windows to another display, etc. Second the most frequent feature.&lt;/li&gt;
+&lt;li&gt;Opening floating (over everything) notes during the meeting to keep track of the agenda&lt;/li&gt;
+&lt;li&gt;Quick calculations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Platforms: macOS.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/raycast.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://lunar.fyi/&quot;&gt;Lunar&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Allows controlling brightness both on built-in and external monitors.&lt;/li&gt;
+&lt;li&gt;Previously, I used 2 or 3 similar apps, some of them are open-source, but no app managed to work correctly with all the external monitors I use.&lt;/li&gt;
+&lt;li&gt;Platforms: macOS.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/lunar.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ITerm 2&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Replacement for MacOS built-in terminal.&lt;/li&gt;
+&lt;li&gt;Has tons of features and integrations.&lt;/li&gt;
+&lt;li&gt;My current work only assumes a little work in a terminal, but I remember what a great difference it made when I started to use one at my previous job.&lt;/li&gt;
+&lt;li&gt;Platforms: macOS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;other&quot;&gt;Other &lt;a class=&quot;direct-link&quot; href=&quot;#other&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Good keyboard and typing skills
+&lt;ul&gt;
+&lt;li&gt;Typing speed is not a help in programming, but the more senior engineer, the more time he can spend on communication, writing a post in a corporate network, documentation, etc.&lt;/li&gt;
+&lt;li&gt;To make these tasks faster and more pleasant, I invested some time in typing speed skills and a keyboard with a comfortable typing experience.&lt;/li&gt;
+&lt;li&gt;Keyboard
+&lt;ul&gt;
+&lt;li&gt;Home: &lt;strong&gt;NuPhy Air 60&lt;/strong&gt;. It&#39;s 60% (no Numpad and Fn row), mechanical, low-profile And wireless keyboard. I love its compact size and folio, allowing me to put my iPad mini on a stand. I read and write many things on iPad (including this post), and this keyboard is way better than Apple&#39;s offerings for the same tasks in terms of balance between portability and typing experience. I use linear lubed switches with some mods.
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/nyphy.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Work: &lt;strong&gt;Dygma Raise&lt;/strong&gt;. It&#39;s a 60% split ergonomic mechanical keyboard with optional tenting capability for a more ergonomic wrist position. I love it for the comfort of typing. One small con is that the sound of typing could be better due to its construction. I use linear lubed switches + some keyboard mods.
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;https://update-me.com/img/for_posts/01/dygma.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Storage&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;One of the oldest categories of apps I use. Currently, I use &lt;a href=&quot;https://disk.yandex.com/&quot;&gt;Yandex.Disk&lt;/a&gt; because of stable MacOS app work and reliable back-end. I worked for Yandex for seven years and knew the people behind the product. I can trust them :)&lt;/li&gt;
+&lt;li&gt;Available on all platforms.&lt;/li&gt;
+&lt;li&gt;Platforms: all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12&quot;&gt;Timeout&lt;/a&gt;&lt;/strong&gt; app from macOS App Store
+&lt;ul&gt;
+&lt;li&gt;Small nice app that reminds me to take a break. I have used it for at least six years.&lt;/li&gt;
+&lt;li&gt;Platforms: macOS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://app.grammarly.com/&quot;&gt;Grammarly&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;It&#39;s a nice service checking grammar, spelling, punctuation and most importantly word selection and sentence structure.&lt;/li&gt;
+&lt;li&gt;Platforms: all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;#conclusion&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I was developing this set of apps and techniques for a long time, and the journey continues. It seems like a lot, but in reality, almost every app has some predecessors (which I also used) and extends previous experience, so it&#39;s pretty easy to learn a new app.&lt;br&gt;
+I know the &amp;quot;productivity&amp;quot; apps field is indefinite, and I&#39;m happy to see you sharing your favourite apps and workflows.&lt;/p&gt;
+
+			
+		</content>
+	</entry>
+</feed>
