@@ -143,7 +143,7 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
 	* To make these tasks faster and more pleasant, I invested some time in typing speed skills and a keyboard with a comfortable typing experience.
 	* Keyboard
 		* Home: **NuPhy Air 60**. It's 60% (no Numpad and Fn row), mechanical, low-profile And wireless keyboard. I love its compact size and folio, allowing me to put my iPad mini on a stand. I read and write many things on iPad (including this post), and this keyboard is way better than Apple's offerings for the same tasks in terms of balance between portability and typing experience. I use linear lubed switches with some mods.
-			* ![...](/img/for_posts/01/nyphy.png)
+			* ![...](/img/for_posts/01/nuphy.png)
 		* Work: **Dygma Raise**. It's a 60% split ergonomic mechanical keyboard with optional tenting capability for a more ergonomic wrist position. I love it for the comfort of typing. One small con is that the sound of typing could be better due to its construction. I use linear lubed switches + some keyboard mods.
 			* ![...](/img/for_posts/01/dygma.png)
 * **Cloud Storage**
