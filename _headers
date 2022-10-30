@@ -35,14 +35,14 @@
 /page-list/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
-/tags/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-
 /index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 /
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/productivity/index.html
@@ -50,8 +50,8 @@
 /tags/productivity/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
-/posts/firstpost/index.html
+/posts/my_productivity_tools/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-/posts/firstpost/
+/posts/my_productivity_tools/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 # [end csp headers]
