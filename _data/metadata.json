@@ -1,26 +1,25 @@
 {
   "title": "Tech blog",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
+  "url": "https://dimitrydushkin.github.io",
+  "domain": "dimitrydushkin.github.io",
   "description": "Software engineering and beyond",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "Software engineering and beyond",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://dimitrydushkin.github.io"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://dimitrydushkin.github.io/feed/feed.json"
   },
   "author": {
     "name": "Dmitrii Dushkin",
     "twitterHandle": "sky2high0"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Dmitrii Dushkin"
   }
 }

@@ -13,7 +13,7 @@ I want to share software and a bit of hardware gems I found during 20+ years of 
 
 > Most of the time, I use Apple devices and very little — Windows, so keep this in mind, and I'll try to highlight if there is a Windows version of the software.
 
-### TLDR
+## TLDR
 * Remember things:
 	* Apple Reminder
 	* Apple Notes
@@ -34,7 +34,7 @@ I want to share software and a bit of hardware gems I found during 20+ years of 
 	* Grammarly
 
 
-### Remember things
+## Remember things
 * **Apple Reminder**
 	* Using reminders as is. I often use Siri to create a reminder like "Hey Siri, remind me in 5 hours to scan a document". A cool benefit of the highly-coupled Apple eco-system.
 	* Also using it to keep lists of:
@@ -67,7 +67,7 @@ I want to share software and a bit of hardware gems I found during 20+ years of 
 	* Alternatives using the same database format are available on all platforms.
 	* ![...](/img/for_posts/01/macpass.png)
 
-### Personal Knowledge Management
+## Personal Knowledge Management
 Although Apple Notes and Reminders are also used for preserving some knowledge, they do not offer any suitable (for me) experience for:
 * Keeping long-lasting information,
 * Research and learning,
@@ -113,7 +113,7 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
 	* Platforms: all.
 	* ![...](/img/for_posts/01/lucidchart.png)
 
-### System control
+## System control
 - **Raycast**
 	- A recent gem I found. It's an extensible MacOS Spotlight (the one you see on "Cmd + Space"). 
 	- It's quite the same as more mature [Alfred](https://www.alfredapp.com/), but we with much more in free-pack and a more modern (IMHO) look.
@@ -137,7 +137,7 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
 	- My current work only assumes a little work in a terminal, but I remember what a great difference it made when I started to use one at my previous job.
 	- Platforms: macOS.
 
-### Other
+## Other
 * Good keyboard and typing skills
 	* Typing speed is not a help in programming, but the more senior engineer, the more time he can spend on communication, writing a post in a corporate network, documentation, etc. 
 	* To make these tasks faster and more pleasant, I invested some time in typing speed skills and a keyboard with a comfortable typing experience.
@@ -158,6 +158,6 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
 	* Platforms: all.
 
 
-### Conclusion
+## Conclusion
 I was developing this set of apps and techniques for a long time, and the journey continues. It seems like a lot, but in reality, almost every app has some predecessors (which I also used) and extends previous experience, so it's pretty easy to learn a new app.
 I know the "productivity" apps field is indefinite, and I'm happy to see you sharing your favourite apps and workflows.
