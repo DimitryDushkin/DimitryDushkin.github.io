@@ -3,9 +3,16 @@
   --primary: #f9c412;
   --primary-dark: #22282c;
 
-  --bg-color: #2f383e;
+  /* Core variables */
+  --bg-color: var(--bg-dark);
+  --body-text-color: var(--fg-dark);
+  --reading-progress-completed-color: #f9c412;
+
+
+
 }
 
+/* 1. Everforest theme  */
 /* 2. Colours */
 :root
 {
