@@ -1,0 +1,10 @@
+/*
+  Make image rasterization lazy. This means that e.g. the cost of the
+  blurry placeholder is never paid if images load before entering
+  the viewport.
+  Context
+  - https://web.dev/content-visibility/#skipping-rendering-work-with-content-visibility
+ */
+main img {
+  content-visibility: auto;
+}
