@@ -5,162 +5,169 @@
 
   /* Core variables */
   --bg-color: var(--bg-dark);
+
   --body-text-color: var(--fg-dark);
+  --text-link: var(var(--primary));
+  --heading-color: var(--bg-dark);
+
   --reading-progress-completed-color: #f9c412;
+  --reading-progress-remaining-color: #fff;
 
-
-
+  --share-button-bg: var(--primary);
+  --share-button-color: var(--bg-dark);
 }
+
+/*! purgecss start ignore */
+:root {
+  --main-width: calc(100vw - 3em);
+}
+
+@media (min-width: 37.5em) {
+  :root {
+    --main-width: calc(37.5em - 3em);
+  }
+}
+/*! purgecss end ignore */
 
 /* 1. Everforest theme  */
 /* 2. Colours */
-:root
-{
-    /* 2.1 Dark theme color variables */
-    --bg0-dark:       #22282c;
-    --bg1-dark:       #272f34;
-    --bg-dark:        #2f383e;
-    --bg2-dark:       #374247;
-    --bg3-dark:       #404c51;
-    --bg4-dark:       #4a555b;
-    --bg5-dark:       #525c62;
-    --bg_visual:      #503946;
-    --bg_red:         #4e3e43;
-    --bg_green:       #404d44;
-    --bg_blue:        #394f5a;
-    --bg_yellow:      #4a4940;
-    --shadow:         #00000070;
+:root {
+  /* 2.1 Dark theme color variables */
+  --bg0-dark: #22282c;
+  --bg1-dark: #272f34;
+  --bg-dark: #2f383e;
+  --bg2-dark: #374247;
+  --bg3-dark: #404c51;
+  --bg4-dark: #4a555b;
+  --bg5-dark: #525c62;
+  --bg_visual: #503946;
+  --bg_red: #4e3e43;
+  --bg_green: #404d44;
+  --bg_blue: #394f5a;
+  --bg_yellow: #4a4940;
+  --shadow: #00000070;
 
-    --fg-dark:        #d3c6aa;
-    --grey0-dark:     #7f897d;
-    --grey1-dark:     #859289;
-    --grey2-dark:     #9aa79d;
+  --fg-dark: #d3c6aa;
+  --grey0-dark: #7f897d;
+  --grey1-dark: #859289;
+  --grey2-dark: #9aa79d;
 
-    --faded-red:     #e67e80;
-    --faded-orange:  #e69875;
-    --faded-yellow:  #dbbc7f;
-    --faded-green:   #a7c080;
-    --faded-aqua:    #83c092;
-    --faded-blue:    #7fbbb3;
-    --faded-purple:  #d699b6;
+  --faded-red: #e67e80;
+  --faded-orange: #e69875;
+  --faded-yellow: #dbbc7f;
+  --faded-green: #a7c080;
+  --faded-aqua: #83c092;
+  --faded-blue: #7fbbb3;
+  --faded-purple: #d699b6;
 
-    --dim-red:       #da6362;
-    --dim-orange:    #d77f48;
-    --dim-yellow:    #bf983d;
-    --dim-green:     #899c40;
-    --dim-aqua:      #569d79;
-    --dim-blue:      #5a93a2;
-    --dim-purple:    #b87b9d;
+  --dim-red: #da6362;
+  --dim-orange: #d77f48;
+  --dim-yellow: #bf983d;
+  --dim-green: #899c40;
+  --dim-aqua: #569d79;
+  --dim-blue: #5a93a2;
+  --dim-purple: #b87b9d;
 
+  /* 2.2 Light theme color variables */
+  --bg0-light: #f0edd8;
+  --bg1-light: #f6f1dd;
+  --bg-light: #fdf6e3;
+  --bg2-light: #f3efda;
+  --bg3-light: #edead5;
+  --bg4-light: #e4e1cd;
+  --bg5-light: #dfdbc8;
+  --grey0-light: #a4ad9e;
+  --grey1-light: #939f91;
+  --grey2-light: #879686;
+  --shadow-light: #3c474d20;
 
-    /* 2.2 Light theme color variables */
-    --bg0-light:     #f0edd8;
-    --bg1-light:     #f6f1dd;
-    --bg-light:      #fdf6e3;
-    --bg2-light:     #f3efda;
-    --bg3-light:     #edead5;
-    --bg4-light:     #e4e1cd;
-    --bg5-light:     #dfdbc8;
-    --grey0-light:   #a4ad9e;
-    --grey1-light:   #939f91;
-    --grey2-light:   #879686;
-    --shadow-light:  #3c474d20;
+  --bg_visual_light: #eaedc8;
+  --bg_red_light: #fbe3da;
+  --bg_green_light: #f0f1d2;
+  --bg_blue_light: #e9f0e9;
+  --bg_yellow_light: #faedcd;
 
+  --fg-light: #5c6a72;
 
-    --bg_visual_light:      #eaedc8;
-    --bg_red_light:         #fbe3da;
-    --bg_green_light:       #f0f1d2;
-    --bg_blue_light:        #e9f0e9;
-    --bg_yellow_light:      #faedcd;
+  --light-red: #f85552;
+  --light-orange: #f57d26;
+  --light-yellow: #bf983d;
+  --light-green: #899c40;
+  --light-aqua: #569d79;
+  --light-blue: #5a93a2;
+  --light-purple: #b87b9d;
 
-    --fg-light:       #5c6a72;
-    
-    --light-red:     #f85552;
-    --light-orange:  #f57d26;
-    --light-yellow:  #bf983d;
-    --light-green:   #899c40;
-    --light-aqua:    #569d79;
-    --light-blue:    #5a93a2;
-    --light-purple:  #b87b9d;
+  --light-dim-red: #f1706f;
+  --light-dim-orange: #f39459;
+  --light-dim-yellow: #e4b649;
+  --light-dim-green: #a4bb4a;
+  --light-dim-aqua: #6ec398;
+  --light-dim-blue: #6cb3c6;
+  --light-dim-purple: #e092be;
 
-    --light-dim-red:    #f1706f;
-    --light-dim-orange: #f39459;
-    --light-dim-yellow: #e4b649;
-    --light-dim-green:  #a4bb4a;
-    --light-dim-aqua:   #6ec398;
-    --light-dim-blue:   #6cb3c6;
-    --light-dim-purple: #e092be;
+  /*}*/
 
-
-/*}*/
-
-
-/* 2.3 Dark theme implementation */
-/*.theme-dark*/
-/*{*/
-    --background-primary:         var(--bg-dark);
-    --background-primary-alt:     var(--bg-dark);
-    --background-secondary:       var(--bg-dark);
-    --background-secondary-alt:   var(--bg-dark);
-    --text-normal:                var(--fg-dark);
-    --text-faint:                 var(--grey1-dark);
-    --text-title-h1:              var(--dim-red);
-    --text-title-h2:              var(--dim-orange);
-    --text-title-h3:              var(--dim-yellow);
-    --text-title-h4:              var(--dim-green);
-    --text-title-h5:              var(--dim-aqua);
-    --text-title-h6:              var(--dim-purple);
-    --text-link:                  var(--faded-blue);
-    --text-a:                     var(--dim-aqua);
-    --text-a-hover:               var(--faded-aqua);
-    --text-mark:                  rgba(215, 153, 33, 0.4); /* light-yellow */
-    --pre-code:                   var(--bg1-dark);
-    --text-highlight-bg:          var(--bg_green);
-    --interactive-accent:         var(--dim-aqua);
-    --interactive-before:         var(--bg5-dark);
-    --background-modifier-border: var(--bg5-dark);
-    --text-accent:                var(--dim-blue);
-    --interactive-accent-rgb:     var(--dim-blue);
-    --inline-code:                var(--dim-blue);
-    --code-block:                 var(--fg-dark);
-    --vim-cursor:                 var(--faded-blue);
-    --text-selection:             var(--bg5-dark);
+  /* 2.3 Dark theme implementation */
+  /*.theme-dark*/
+  /*{*/
+  --background-primary: var(--bg-dark);
+  --background-primary-alt: var(--bg-dark);
+  --background-secondary: var(--bg-dark);
+  --background-secondary-alt: var(--bg-dark);
+  --text-normal: var(--fg-dark);
+  --text-faint: var(--grey1-dark);
+  --text-title-h1: var(--dim-red);
+  --text-title-h2: var(--dim-orange);
+  --text-title-h3: var(--dim-yellow);
+  --text-title-h4: var(--dim-green);
+  --text-title-h5: var(--dim-aqua);
+  --text-title-h6: var(--dim-purple);
+  --text-link: var(--faded-blue);
+  --text-a: var(--dim-aqua);
+  --text-a-hover: var(--faded-aqua);
+  --text-mark: rgba(215, 153, 33, 0.4); /* light-yellow */
+  --pre-code: var(--bg1-dark);
+  --text-highlight-bg: var(--bg_green);
+  --interactive-accent: var(--dim-aqua);
+  --interactive-before: var(--bg5-dark);
+  --background-modifier-border: var(--bg5-dark);
+  --text-accent: var(--dim-blue);
+  --interactive-accent-rgb: var(--dim-blue);
+  --inline-code: var(--dim-blue);
+  --code-block: var(--fg-dark);
+  --vim-cursor: var(--faded-blue);
+  --text-selection: var(--bg5-dark);
 }
 
 /* 2.4 Light theme implementation */
-.theme-light
-{
-    --background-primary:         var(--bg-light);
-    --background-primary-alt:     var(--bg-light);
-    --background-secondary:       var(--bg-light);
-    --background-secondary-alt:   var(--bg-light);
-    --text-normal:                var(--fg-light);
-    --text-faint:                 var(--grey1-light);
-    --text-title-h1:              var(--light-red);
-    --text-title-h2:              var(--light-orange);
-    --text-title-h3:              var(--light-yellow);
-    --text-title-h4:              var(--light-green);
-    --text-title-h5:              var(--light-aqua);
-    --text-title-h6:              var(--light-purple);
-    --text-link:                  var(--light-blue);
-    --text-a:                     var(--light-dim-blue);
-    --text-a-hover:               var(--light-blue);
-    --text-mark:                  rgba(215, 153, 33, 0.4); /* light-yellow */
-    --pre-code:                   var(--bg1-light);
-    --text-highlight-bg:          var(--light-dim-green);
-    --interactive-accent:         var(--bg5-light);
-    --interactive-before:         var(--bg5-light);
-    --background-modifier-border: var(--bg5-light);
-    --text-accent:                var(--light-dim-green);
-    --interactive-accent-rgb:     var(--light-dim-green);
-    --inline-code:                var(--light-blue);
-    --code-block:                 var(--fg-light);
-    --vim-cursor:                 var(--light-blue);
-    --text-selection:             rgba(189, 174, 147, 0.5); /* light3 */
-}
-
-.test-dead-code-elimination-sentinel {
-  color: red;
+.theme-light {
+  --background-primary: var(--bg-light);
+  --background-primary-alt: var(--bg-light);
+  --background-secondary: var(--bg-light);
+  --background-secondary-alt: var(--bg-light);
+  --text-normal: var(--fg-light);
+  --text-faint: var(--grey1-light);
+  --text-title-h1: var(--light-red);
+  --text-title-h2: var(--light-orange);
+  --text-title-h3: var(--light-yellow);
+  --text-title-h4: var(--light-green);
+  --text-title-h5: var(--light-aqua);
+  --text-title-h6: var(--light-purple);
+  --text-link: var(--light-blue);
+  --text-a: var(--light-dim-blue);
+  --text-a-hover: var(--light-blue);
+  --text-mark: rgba(215, 153, 33, 0.4); /* light-yellow */
+  --pre-code: var(--bg1-light);
+  --text-highlight-bg: var(--light-dim-green);
+  --interactive-accent: var(--bg5-light);
+  --interactive-before: var(--bg5-light);
+  --background-modifier-border: var(--bg5-light);
+  --text-accent: var(--light-dim-green);
+  --interactive-accent-rgb: var(--light-dim-green);
+  --inline-code: var(--light-blue);
+  --code-block: var(--fg-light);
+  --vim-cursor: var(--light-blue);
+  --text-selection: rgba(189, 174, 147, 0.5); /* light3 */
 }
 
 /*
@@ -184,18 +191,6 @@ article * {
 header nav {
   z-index: 1;
 }
-
-/*! purgecss start ignore */
-:root {
-  --main-width: calc(100vw - 3em);
-}
-
-@media (min-width: 37.5em) {
-  :root {
-    --main-width: calc(37.5em - 3em);
-  }
-}
-/*! purgecss end ignore */
 
 share-widget {
   position: fixed;
@@ -224,13 +219,6 @@ share-widget button:active {
   transform: scale(1.2);
 }
 
-dialog {
-  background-color: #8dff80;
-  position: fixed;
-  opacity: 0.9;
-  z-index: 1000;
-}
-
 img[align="left"] {
   width: auto;
   height: 16rem;
@@ -254,7 +242,7 @@ header aside {
 
 #reading-progress {
   z-index: 1;
-  background-color: var(--primary);
+  background-color: var(--reading-progress-remaining-color);
   width: 100vw;
   position: absolute;
   left: 0;
@@ -290,223 +278,19 @@ html {
   src: url("/fonts/Inter-3.19.var.woff2") format("woff2");
 }
 
-/*
-
-The Bahunya CSS framework https://kimeiga.github.io/bahunya/
-
-https://github.com/Kimeiga/bahunya/blob/master/LICENSE
-
-MIT License
-
-Copyright (c) 2018 Hakan Alpay
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-*/
-
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  font-family: Inter UI, sans-serif;
+  --font-family: Inter UI, sans-serif;
 }
 body {
   margin: 0;
+  font-family: var(--font-family);
+  background: var(--bg-color);
+  color: var(--text-normal);
 }
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-}
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-a {
-  background-color: transparent;
-}
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
-}
-b,
-strong {
-  font-weight: 700;
-}
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-small {
-  font-size: 80%;
-}
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-sub {
-  bottom: -0.25em;
-}
-sup {
-  top: -0.5em;
-}
-img {
-  border-style: none;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-button,
-select {
-  text-transform: none;
-}
-[type="button"],
-[type="reset"],
-[type="submit"],
-button {
-  -webkit-appearance: button;
-}
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner,
-button::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring,
-button:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-legend {
-  box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
-}
-progress {
-  vertical-align: baseline;
-}
-textarea {
-  overflow: auto;
-}
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-details {
-  display: block;
-}
-summary {
-  display: list-item;
-}
-[hidden],
-template {
-  display: none;
-}
-h1 {
-  font-size: 3em;
-  line-height: 1.25;
-  margin-bottom: 0.5em;
-}
-h2 {
-  font-size: 2.5em;
-  line-height: 1.2;
-  margin-bottom: 0.6em;
-}
-h3 {
-  font-size: 2em;
-  line-height: 1.125;
-  margin-bottom: 0.75em;
-}
-h4 {
-  font-size: 1.5em;
-  margin-bottom: 1em;
-}
-h4,
-h5 {
-  line-height: 1.5em;
-}
-h5 {
-  font-size: 1.25em;
-  margin-bottom: 1.2em;
-}
-h6 {
-  font-size: 1em;
-  line-height: 1.5em;
-  margin-bottom: 1.5em;
-}
-body,
-ol,
-p,
-pre,
-ul {
-  font-size: 1em;
-  line-height: 1.5;
-}
-ol,
-p,
-pre,
-ul {
-  margin-bottom: 1.5em;
-}
+
 h1 {
   font-size: 1.5rem;
 }
@@ -535,370 +319,33 @@ h6 {
   line-height: 1.6rem;
   margin-bottom: 1.36rem;
 }
-body,
-ol,
-p,
-pre,
-ul {
-  font-size: 1rem;
-  line-height: 1.6;
+h1 {
+  color: var(--text-title-h1);
 }
-ol,
-p,
-pre,
-ul {
-  margin-bottom: 1.36rem;
+h2 {
+  color: var(--text-title-h2);
 }
-@media (min-width: 600px) {
-  h1 {
-    font-size: 4.3978rem;
-    line-height: 4.4rem;
-  }
-  h1,
-  h2 {
-    margin-bottom: 1.496rem;
-  }
-  h2 {
-    font-size: 3.1097rem;
-    line-height: 3.52rem;
-  }
-  h3 {
-    font-size: 2.1989rem;
-    line-height: 2.64rem;
-    margin-bottom: 1.496rem;
-  }
-  h4 {
-    font-size: 1.5554rem;
-  }
-  h4,
-  h5 {
-    line-height: 1.76rem;
-    margin-bottom: 1.496rem;
-  }
-  h5,
-  h6 {
-    font-size: 1.1rem;
-  }
-  h6 {
-    line-height: 1.76rem;
-    margin-bottom: 1.496rem;
-  }
-  body,
-  ol,
-  p,
-  pre,
-  ul {
-    font-size: 1.1rem;
-    line-height: 1.6;
-  }
-  ol,
-  p,
-  pre,
-  ul {
-    margin-bottom: 1.496rem;
-  }
+h3 {
+  color: var(--text-title-h3);
 }
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 4.0756rem;
-  }
-  h1,
-  h2 {
-    margin-bottom: 1.632rem;
-  }
-  h2 {
-    font-size: 3.05rem;
-    line-height: 4.8rem;
-  }
-  h3 {
-    font-size: 1.7rem;
-    line-height: 2.88rem;
-    margin-bottom: 1.632rem;
-  }
-  h4 {
-    font-size: 1.3rem;
-  }
-  h4,
-  h5 {
-    line-height: 1.2rem;
-    margin-bottom: 1.632rem;
-  }
-  h5,
-  h6 {
-    font-size: 1.1rem;
-  }
-  h6 {
-    line-height: 1rem;
-    margin-bottom: 1.632rem;
-  }
-  body,
-  ol,
-  p,
-  pre,
-  ul {
-    font-size: 1.2rem;
-    line-height: 1.6;
-  }
-  ol,
-  p,
-  pre,
-  ul {
-    margin-bottom: 1.632rem;
-  }
+h4 {
+  color: var(--text-title-h4);
 }
-th {
-  font-weight: 600;
+h5 {
+  color: var(--text-title-h5);
 }
-td,
-th {
-  border-bottom: 1px solid #595959;
-  overflow: auto;
-  padding: 0.75em;
-  text-align: left;
-  vertical-align: top;
-}
-thead th {
-  border-bottom: 1px solid #f9c412;
-}
-table {
-  display: table;
-}
-code,
-pre,
-table {
-  overflow-x: auto;
-}
-pre {
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
-}
-pre code:not([class]) {
-  padding: 1.5em;
-  overflow-x: scroll;
-}
-code,
-kbd {
-  border-radius: 0.3em;
-  color: #e2777a;
-  padding: 0 0.3em;
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
-  font-size: 90%;
-}
-code,
-kbd {
-  background: #2d2d2d;
-}
-kbd {
-  color: #7ec699;
-}
-mark {
-  background: #f9c412;
-  padding: 0 0.3em;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
-  font-family: var(--font-family);
+  color: var(--text-title-h6);
 }
-h2,
-h4,
-h6 {
-  font-style: italic;
-}
+
 a {
-  color: #f9c412;
+  color: var(--text-link);
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
-small {
-  color: #ccc;
-}
-hr {
-  border-bottom: 1px solid #eee;
-}
-figcaption {
-  color: #ccc;
-  margin-top: 0.75em;
-  font-size: 80%;
-}
-dt {
-  font-weight: 600;
-}
-@media (max-width: 767px) {
-  fieldset {
-    min-width: 0;
-  }
-  fieldset * {
-    flex-grow: 1;
-    page-break-before: auto;
-  }
-  x:-moz-any-link {
-    display: table-cell;
-  }
-}
-html {
-  font-family: Inter UI, sans-serif;
-  --font-family: Inter UI, sans-serif;
-}
-form {
-  padding: 1.5em 1.5em 0;
-  border: 0.2rem solid #202020;
-  margin-bottom: 1.5em;
-}
-form small {
-  font-style: italic;
-}
-fieldset {
-  padding: 0;
-  margin: 0;
-}
-fieldset legend {
-  font-size: 150%;
-  margin-bottom: 0.75em;
-}
-button,
-input,
-select,
-textarea {
-  border-radius: 0.3em;
-  display: inline-block;
-  padding: 0.75em;
-  max-width: 100%;
-}
-button + input[type="checkbox"],
-button + input[type="radio"],
-button + label,
-input + input[type="checkbox"],
-input + input[type="radio"],
-input + label,
-select + input[type="checkbox"],
-select + input[type="radio"],
-select + label,
-textarea + input[type="checkbox"],
-textarea + input[type="radio"],
-textarea + label {
-  page-break-before: always;
-}
-input,
-select,
-textarea {
-  margin-bottom: 1.5em;
-}
-textarea {
-  min-height: 7.5em;
-  min-width: 15em;
-}
-label {
-  display: inline-block;
-}
-label + * {
-  page-break-before: always;
-}
-fieldset > * {
-  display: block;
-}
-input,
-select {
-  display: inline;
-}
-fieldset > *,
-form > :not(fieldset) {
-  margin-right: 0.75em;
-}
-button,
-input[type="reset"],
-input[type="submit"] {
-  background: #f2f2f2;
-  color: #191919;
-  cursor: pointer;
-  display: inline-block;
-  padding: 0.75em 1.5em;
-  text-align: center;
-  margin: 0 0.75em 1.5em 0;
-}
-button:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  background: #d9d9d9;
-  color: #000;
-}
-button[disabled],
-input[type="reset"][disabled],
-input[type="submit"][disabled] {
-  background: #e6e6e6;
-  color: #404040;
-  cursor: not-allowed;
-}
-button:not([disabled]),
-button[type="submit"],
-input[type="submit"] {
-  background: #f9c412;
-  color: var(--bg-color);
-}
-button:not([disabled]):hover,
-button[type="submit"]:hover,
-input[type="submit"]:hover {
-  background: #ba9005;
-  color: #000;
-}
-input[type="color"],
-input[type="date"],
-input[type="datetime-local"],
-input[type="datetime"],
-input[type="email"],
-input[type="file"],
-input[type="month"],
-input[type="number"],
-input[type="password"],
-input[type="phone"],
-input[type="range"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="time"],
-input[type="url"],
-input[type="week"],
-select,
-textarea {
-  border: 1px solid #595959;
-  padding: 0.75em;
-}
-input[type="checkbox"],
-input[type="radio"] {
-  flex-grow: 0;
-  margin: 0.75em 0.375em 0.75em 0;
-  vertical-align: middle;
-}
-input[type="checkbox"] + label,
-input[type="radio"] + label {
-  page-break-before: avoid;
-}
-select[multiple] {
-  min-width: 15em;
-}
-* {
-  border: 0;
-  box-sizing: border-box;
-}
-img,
-video {
-  max-width: 100%;
-}
-body {
-  font-family: var(--font-family);
-  background: var(--bg-color);
-  color:  var(--text-normal);
-  /*color: #eee;*/
-}
-section {
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px;
-}
+
 #menu-toggle {
   display: none;
 }
@@ -1009,21 +456,6 @@ li ol,
 li ul {
   margin-bottom: 0;
 }
-dl {
-  display: inline-block;
-  margin: 0 0 1.5em;
-}
-dt {
-  padding-top: 0.75em;
-  padding-left: 0.75em;
-}
-dd {
-  padding-bottom: 0.75em;
-  margin-left: 2.25em;
-}
-dd + dt {
-  border-top: 1px solid #f9c412;
-}
 blockquote {
   border-left: 1px solid #f9c412;
   padding: 0 1.5em;
@@ -1037,17 +469,7 @@ blockquote footer {
   font-size: 90%;
   text-align: start;
 }
-img,
-video {
-  height: auto;
-  margin: 0 auto;
-}
-figure {
-  margin: 1.5em;
-}
-figure img {
-  display: block;
-}
+
 code[class*="language-"],
 pre[class*="language-"] {
   color: #ccc;
@@ -1147,21 +569,6 @@ pre[class*="language-"] {
   color: green;
 }
 
-input[type="submit"],
-button[type="submit"],
-button:not([disabled]) {
-  background: var(--primary);
-}
-input[type="submit"]:hover,
-button[type="submit"]:hover,
-button:not([disabled]):hover {
-  background: var(--primary-dark);
-}
-
-dd + dt {
-  border-top: 1px solid var(--primary);
-}
-
 blockquote {
   border-left: 1px solid var(--primary);
 }
@@ -1170,31 +577,6 @@ mark {
   background: var(--primary);
 }
 
-a {
-  color: var(--primary);
-}
-
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
-}
-
-
-/* MY */
-h1 {
-  color: var(--text-title-h1) ;
-}
-h2 {
-  color: var(--text-title-h2) ;
-}
-h3 {
-  color: var(--text-title-h3) ;
-}
-h4 {
-  color: var(--text-title-h4) ;
-}
-h5 {
-  color: var(--text-title-h5) ;
-}
-h6 {
-  color: var(--text-title-h6) ;
 }
