@@ -20,19 +20,9 @@
 /about/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
-/tags/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-
 /posts/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 /posts/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-
-/404.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
 /index.html
@@ -43,6 +33,16 @@
 /page-list/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 /page-list/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+
+/404.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+
+/tags/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://www.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
 /tags/productivity/index.html
