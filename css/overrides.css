@@ -2,3 +2,7 @@ article {
   max-width: 70ch;
   margin: auto;
 }
+
+aside {
+  font-style: italic;
+}

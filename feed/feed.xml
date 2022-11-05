@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Tech blog</title>
+	<title>Dmitrii Dushkin&#39;s tech blog</title>
 	<subtitle>Software engineering and beyond</subtitle>
 	
 	<link href="https://dimitrydushkin.github.io/feed/feed.xml" rel="self"/>
