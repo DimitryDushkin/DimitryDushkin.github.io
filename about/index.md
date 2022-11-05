@@ -7,4 +7,15 @@ eleventyNavigation:
   order: 3
 ---
 
-Hey! 
+Hey! I'm Dmitrii Dushkin, a software engineer with scientific experience.
+This blog is a collection of my thoughts of various topics:
+
+- Software engeeniring,
+- Web development,
+- VR development,
+- Algorithms behind task management.
+
+Connect with me on:
+
+- [Twitter](https://twitter.com/sky2high0),
+- [LinkedIn](https://www.linkedin.com/in/dndushkin/).
