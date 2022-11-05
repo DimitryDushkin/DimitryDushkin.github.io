@@ -9,6 +9,7 @@ image: https://cdn.pixabay.com/photo/2020/08/30/20/54/rice-field-5530707_1280.jp
 ---
 
 I like to make my everyday work and life-related tasks faster: taking notes, remembering passwords, arranging windows and maintain things to do.
+
 I want to share software and a bit of hardware gems I found during 20+ years of sharpening the "Second brain" blade. For me, it's also an opportunity to reflect.
 
 > Most of the time, I use Apple devices and very little — Windows, so keep this in mind, and I'll try to highlight if there is a Windows version of the software.
