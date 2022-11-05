@@ -54,14 +54,11 @@
 
 html {
   scrollbar-width: thin;
-}
-
-html {
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
 }
 
 body {
-  line-height: 1.4;
   max-width: 800px;
   margin: 20px auto;
   padding: 0 10px;
