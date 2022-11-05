@@ -6,8 +6,10 @@ header {
   flex-direction: column;
 }
 header nav {
-  padding: 0.375em 1.5em;
+  padding: 0.375em 0;
   align-self: flex-start;
+  display: flex;
+  gap: 16px;
 }
 header nav h1 {
   float: left;
@@ -19,5 +21,4 @@ header nav h1 {
 header nav a {
   font-weight: 700;
   text-decoration: none;
-  margin-left: 1.5em;
 }

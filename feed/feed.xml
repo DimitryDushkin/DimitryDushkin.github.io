@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Dmitrii Dushkin&#39;s tech blog</title>
+	<title>Dmitrii&#39;s tech blog</title>
 	<subtitle>Software engineering and beyond</subtitle>
 	
-	<link href="https://dimitrydushkin.github.io/feed/feed.xml" rel="self"/>
-	<link href="https://dimitrydushkin.github.io"/>
+	<link href="https://dushkin.tech/feed/feed.xml" rel="self"/>
+	<link href="https://dushkin.tech"/>
 	<updated>2022-10-30T00:00:00-00:00</updated>
-	<id>https://dimitrydushkin.github.io</id>
+	<id>https://dushkin.tech</id>
 	<author>
 		<name>Dmitrii Dushkin</name>
 		<email></email>
@@ -14,9 +14,9 @@
 	
 	<entry>
 		<title>My productivity tools</title>
-		<link href="https://dimitrydushkin.github.io/posts/my_productivity_tools/"/>
+		<link href="https://dushkin.tech/posts/my_productivity_tools/"/>
 		<updated>2022-10-30T00:00:00-00:00</updated>
-		<id>https://dimitrydushkin.github.io/posts/my_productivity_tools/</id>
+		<id>https://dushkin.tech/posts/my_productivity_tools/</id>
 		<content type="html">
 		  &lt;p&gt;I like to make my everyday work and life-related tasks faster: taking notes, remembering passwords, arranging windows and maintain things to do.&lt;/p&gt;
 &lt;p&gt;I want to share software and a bit of hardware gems I found during 20+ years of sharpening the &amp;quot;Second brain&amp;quot; blade. For me, it&#39;s also an opportunity to reflect.&lt;/p&gt;
@@ -67,7 +67,7 @@
 &lt;li&gt;Games to play&lt;/li&gt;
 &lt;li&gt;Platforms: macOS, iPadOS, iOS.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/reminder.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/reminder.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Apple Notes&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mostly using it for Quick Notes (TM). Again thanks to good integration with iOS and macOS, it&#39;s quite a convenient way to quickly write down a thought or save a link with comments. For instance, when exploring Unreal Engine 5, I often clicked on &amp;quot;Share&amp;quot; in the iOS YouTube app, shared the video via Notes, and added a small comment on what this video was about.&lt;/li&gt;
@@ -75,7 +75,7 @@
 &lt;li&gt;I tried to use it as a main note-taking app, but it lacks many must-have features. Number one is interlinking between notes. On the good side, Apple started investing in it and recently, Apple added must-have things like tags or tables.&lt;/li&gt;
 &lt;li&gt;Platforms: macOS, iPadOS, iOS.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/notes.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/notes.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://bear.app/&quot;&gt;Bear&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Honorable mention. I&#39;m not using it anymore because Apple Notes has become good enough for the same tasks. But still, it has one of the nicest UI and UX (user experience) I ever saw both desktop and mobile. It&#39;s still worth trying if Apple Notes already cover your needs, but you&#39;re looking for a bit more features like:&lt;/li&gt;
@@ -84,7 +84,7 @@
 &lt;li&gt;Themes!&lt;/li&gt;
 &lt;li&gt;Platforms: macOS, iPadOS, iOS.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/bear.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/bear.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Google Calendar added to Apple Calendar&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Besides covering obvious needs like adding doctor appointments, birthdays, etc. I made a shared calendar with my relatives and added events like joint trips.&lt;/li&gt;
@@ -98,7 +98,7 @@
 &lt;li&gt;There are a lot of more popular alternatives, but almost all of them are online services and engaging browser extension installation. Credentials are one of the most important pieces of a secure online presence, and I cannot afford to store them in 3rd party services, which can (theoretically) vanish the next day and take all my credentials with them.&lt;/li&gt;
 &lt;li&gt;Alternatives using the same database format are available on all platforms.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/macpass.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/macpass.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;personal-knowledge-management&quot;&gt;Personal Knowledge Management &lt;a class=&quot;direct-link&quot; href=&quot;#personal-knowledge-management&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Although Apple Notes and Reminders are also used for preserving some knowledge, they do not offer any suitable (for me) experience for:&lt;/p&gt;
 &lt;ul&gt;
@@ -122,7 +122,7 @@
 &lt;li&gt;Pricing model is quite affordable. Free-tier also works (recently, they expanded it so you can have an unlimited number of notes).&lt;/li&gt;
 &lt;li&gt;Platforms: all.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/notion.png&quot; alt=&quot;notion&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/notion.png&quot; alt=&quot;notion&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;It&#39;s a new tool in my belt. They recently released a 1.0.0. It has MacOS, iOS (both iPhone and iPad versions) and Windows versions.&lt;/li&gt;
@@ -150,7 +150,7 @@
 &lt;li&gt;The only issue is a pricing model. 8$ per month (96$ per year) is too much for built-in cloud syncing, which is useful if you use the app on multiple devices. I&#39;m using iCloud to store notes, which works great across Apple devices, but iCloud is not working in Windows. Also, 50$ per year for a commercial license with no additional features compared to a personal (free) license is a bit of a shame. Maybe after several months of the experiment, I will be convinced to buy a sync feature, though :)&lt;/li&gt;
 &lt;li&gt;Platforms: all.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/obisidian.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/obisidian.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lucidchart&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I used this app only for work since my employer provides a license for it. It&#39;s one of the best of its kind.&lt;/li&gt;
@@ -158,7 +158,7 @@
 &lt;li&gt;Previously, I used open-sourced &lt;strong&gt;&lt;a href=&quot;http://draw.io/&quot;&gt;Draw.io&lt;/a&gt;&lt;/strong&gt;, which is also great, but due to its open-source nature, it could be more advanced and polished and has a sharing capability.&lt;/li&gt;
 &lt;li&gt;Platforms: all.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/lucidchart.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/lucidchart.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;system-control&quot;&gt;System control &lt;a class=&quot;direct-link&quot; href=&quot;#system-control&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Raycast&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -175,14 +175,14 @@
 &lt;/li&gt;
 &lt;li&gt;Platforms: macOS.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/raycast.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/raycast.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://lunar.fyi/&quot;&gt;Lunar&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Allows controlling brightness both on built-in and external monitors.&lt;/li&gt;
 &lt;li&gt;Previously, I used 2 or 3 similar apps, some of them are open-source, but no app managed to work correctly with all the external monitors I use.&lt;/li&gt;
 &lt;li&gt;Platforms: macOS.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/lunar.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/lunar.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ITerm 2&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Replacement for MacOS built-in terminal.&lt;/li&gt;
@@ -199,12 +199,12 @@
 &lt;ul&gt;
 &lt;li&gt;Home: &lt;strong&gt;NuPhy Air 60&lt;/strong&gt;. It&#39;s 60% (no Numpad and Fn row), mechanical, low-profile And wireless keyboard. I love its compact size and folio, allowing me to put my iPad mini on a stand. I read and write many things on iPad (including this post), and this keyboard is way better than Apple&#39;s offerings for the same tasks in terms of balance between portability and typing experience. I use linear lubed switches with some mods.
 &lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/nuphy.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/nuphy.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Work: &lt;strong&gt;Dygma Raise&lt;/strong&gt;. It&#39;s a 60% split ergonomic mechanical keyboard with optional tenting capability for a more ergonomic wrist position. I love it for the comfort of typing. One small con is that the sound of typing could be better due to its construction. I use linear lubed switches + some keyboard mods.
 &lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;https://dimitrydushkin.github.io/img/for_posts/01/dygma.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/dygma.png&quot; alt=&quot;...&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
