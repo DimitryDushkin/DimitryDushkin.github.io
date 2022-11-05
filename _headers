@@ -20,11 +20,6 @@
 /about/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
 
-/tags/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
-/tags/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
-
 /404.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
 
@@ -43,6 +38,11 @@
 /page-list/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
 /page-list/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
+
+/tags/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
+/tags/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
 
 /tags/productivity/index.html
