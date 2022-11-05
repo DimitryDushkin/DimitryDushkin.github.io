@@ -11,9 +11,15 @@
     {% if isdevelopment %}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     {% else %}
-    <link rel="icon" href="{{ '/img/favicon/favicon-192x192.png' | addHash }}" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/favicon/apple-touch-icon.png' | addHash }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/favicon/favicon-32x32.png' | addHash }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/favicon/favicon-16x16.png' | addHash }}">
+    <link rel="manifest" href="{{ '/img/favicon/site.webmanifest'  | addHash }}">
+    <link rel="mask-icon" href="{{ '/img/favicon/safari-pinned-tab.svg'  | addHash }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <link rel="icon" href="{{ '/img/favicon/android-chrome-192x192.png' | addHash }}" type="image/png">
     {% endif %}
-    <meta name="theme-color" content="#f9c412">
+    <meta name="theme-color" content="#ffe6b7">
     <meta name="robots" content="max-snippet:-1, max-image-preview: large, max-video-preview: -1">
     <title>{{ renderData.title or title or metadata.title | escape }}</title>
     <meta property="og:title" content="{{ renderData.title or title or metadata.title | escape  }}">
