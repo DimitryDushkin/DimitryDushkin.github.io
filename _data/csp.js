@@ -38,14 +38,35 @@ const CSP = {
     // Script from same-origin and inline-hashes.
     // If you need to add an external host for scripts you need to add an item like 'https://code.jquery.com/jquery-3.6.0.slim.min.js' to this list.
     [
-      "script-src", 
+      "script-src",
       SELF,
-      'https://www.googletagmanager.com',
-      /* Replaced by apply-csp.js plugin */ "HASHES"],
+      "https://*.googletagmanager.com",
+      /* Replaced by apply-csp.js plugin */ "HASHES",
+    ],
     // Inline CSS is allowed.
     ["style-src", quote("unsafe-inline")],
     // Images may also come from data-URIs.
-    ["img-src", SELF, "data:"],
+    [
+      "img-src",
+      "https://*.google-analytics.com",
+      "https://*.analytics.google.com",
+      "https://*.googletagmanager.com",
+      "https://*.g.doubleclick.net",
+      "https://*.google.com",
+      SELF,
+      "data:",
+    ],
+
+    [
+      "connect-src",
+      SELF,
+
+      "https://*.google-analytics.com",
+      "https://*.analytics.google.com",
+      "https://*.googletagmanager.com",
+      "https://*.g.doubleclick.net",
+      "https://*.google.com",
+    ],
 
     // To add new rules, add new array literals here or extend those above with
     // additional allowed elements.

@@ -1,31 +1,4 @@
-/**
- * Copyright (c) 2020 Google Inc
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of
- * this software and associated documentation files (the "Software"), to deal in
- * the Software without restriction, including without limitation the rights to
- * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
- * the Software, and to permit persons to whom the Software is furnished to do so,
- * subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
- * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
- * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
- * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
-
 const exposed = {};
-if (location.search) {
-  var a = document.createElement("a");
-  a.href = location.href;
-  a.search = "";
-  history.replaceState(null, null, a.href);
-}
 
 function tweet_(url) {
   open(
@@ -95,43 +68,6 @@ document.documentElement.addEventListener("touchstart", prefetch, {
   passive: true,
 });
 
-const GA_ID = document.documentElement.getAttribute("ga-id");
-window.ga =
-  window.ga ||
-  function () {
-    if (!GA_ID) {
-      return;
-    }
-    (ga.q = ga.q || []).push(arguments);
-  };
-ga.l = +new Date();
-ga("create", GA_ID, "auto");
-ga("set", "transport", "beacon");
-var timeout = setTimeout(
-  (onload = function () {
-    clearTimeout(timeout);
-    ga("send", "pageview");
-  }),
-  1000
-);
-
-var ref = +new Date();
-function ping(event) {
-  var now = +new Date();
-  if (now - ref < 1000) {
-    return;
-  }
-  ga("send", {
-    hitType: "event",
-    eventCategory: "page",
-    eventAction: event.type,
-    eventLabel: Math.round((now - ref) / 1000),
-  });
-  ref = now;
-}
-addEventListener("pagehide", ping);
-addEventListener("visibilitychange", ping);
-
 /**
  * Injects a script into document.head
  * @param {string} src path of script to be injected in <head>
@@ -198,44 +134,6 @@ addEventListener(
   },
   true
 );
-
-if (window.ResizeObserver && document.querySelector("header nav #nav")) {
-  var progress = document.getElementById("reading-progress");
-
-  var timeOfLastScroll = 0;
-  var requestedAniFrame = false;
-  function scroll() {
-    if (!requestedAniFrame) {
-      requestAnimationFrame(updateProgress);
-      requestedAniFrame = true;
-    }
-    timeOfLastScroll = Date.now();
-  }
-  addEventListener("scroll", scroll);
-
-  var winHeight = 1000;
-  var bottom = 10000;
-  function updateProgress() {
-    requestedAniFrame = false;
-    var percent = Math.min(
-      (document.scrollingElement.scrollTop / (bottom - winHeight)) * 100,
-      100
-    );
-    progress.style.transform = `translate(-${100 - percent}vw, 0)`;
-    if (Date.now() - timeOfLastScroll < 3000) {
-      requestAnimationFrame(updateProgress);
-      requestedAniFrame = true;
-    }
-  }
-
-  new ResizeObserver(() => {
-    bottom =
-      document.scrollingElement.scrollTop +
-      document.querySelector("#comments,footer").getBoundingClientRect().top;
-    winHeight = window.innerHeight;
-    scroll();
-  }).observe(document.body);
-}
 
 function expose(name, fn) {
   exposed[name] = fn;
