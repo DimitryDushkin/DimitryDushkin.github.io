@@ -6,3 +6,10 @@ article {
 aside {
   font-style: italic;
 }
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(80%);
+    box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
+  }
+}
