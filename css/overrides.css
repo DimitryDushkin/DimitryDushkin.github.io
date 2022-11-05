@@ -13,3 +13,25 @@ aside {
     box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
   }
 }
+
+ul,
+ol,
+dl {
+  margin: 0.8rem 0 1.1rem;
+  padding: 0 0 0 1.5em;
+}
+li > ul {
+  margin-top: 0.5rem;
+}
+
+li:not(:last-child),
+dd:not(:last-child) {
+  margin-bottom: 0.3rem;
+}
+dt {
+  font-weight: bold;
+}
+
+p {
+  margin: 1em 0 -2px 0;
+}
