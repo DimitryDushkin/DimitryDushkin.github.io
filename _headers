@@ -2,6 +2,7 @@
   cache-control: public,max-age=300
   X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 1; mode=block
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
 /img/*
   cache-control: public,max-age=31536000,immutable
@@ -14,11 +15,6 @@
 
 # [csp headers]
 # this text will be replaced by apply-csp.js plugin
-
-/about/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
-/about/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
 
 /404.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
@@ -48,6 +44,11 @@
 /tags/productivity/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
 /tags/productivity/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
+
+/about/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
+/about/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' https://*.googletagmanager.com 'sha256-TVz+2vN3+ZgiiRPB9uCg0Ay6n/8PgEf0tWGg3Bcy+DU=' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com 'self' data:;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com
 
 /posts/my_productivity_tools/index.html
