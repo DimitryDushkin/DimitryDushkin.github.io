@@ -1,19 +1,19 @@
 {
-  "title": "Dmitrii Dushkin's tech blog",
-  "url": "https://dimitrydushkin.github.io",
-  "domain": "dimitrydushkin.github.io",
+  "title": "Dmitrii's tech blog",
+  "url": "https://dushkin.tech",
+  "domain": "dushkin.tech",
   "description": "Software engineering and beyond",
-  "genre": "Insert a schema.org genre",
+  "genre": "software development",
   "sendWebVitals": false,
   "feed": {
     "subtitle": "Software engineering and beyond",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://dimitrydushkin.github.io"
+    "id": "https://dushkin.tech"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://dimitrydushkin.github.io/feed/feed.json"
+    "url": "https://dushkin.tech/feed/feed.json"
   },
   "author": {
     "name": "Dmitrii Dushkin",

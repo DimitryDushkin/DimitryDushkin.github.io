@@ -57,18 +57,7 @@ html {
 }
 
 html {
-  font-family: "Inter UI", sans-serif;
-}
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter UI var", sans-serif;
-  }
-}
-@font-face {
-  font-family: "Inter UI";
-  font-weight: 100 900;
-  font-style: oblique 0deg 10deg;
-  src: url("/fonts/Inter-3.19.var.woff2") format("woff2");
+  font-family: "Inter", sans-serif;
 }
 
 body {

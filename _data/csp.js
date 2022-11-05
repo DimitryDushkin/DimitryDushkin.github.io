@@ -44,7 +44,13 @@ const CSP = {
       /* Replaced by apply-csp.js plugin */ "HASHES",
     ],
     // Inline CSS is allowed.
-    ["style-src", quote("unsafe-inline")],
+    [
+      "style-src",
+      quote("unsafe-inline"),
+      "https://fonts.googleapis.com",
+      "https://fonts.gstatic.com",
+    ],
+    ["font-src", "https://fonts.googleapis.com", "https://fonts.gstatic.com"],
     // Images may also come from data-URIs.
     [
       "img-src",
