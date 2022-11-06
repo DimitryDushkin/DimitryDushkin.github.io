@@ -61,6 +61,9 @@ const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 const { cspDevMiddleware } = require("./_11ty/apply-csp.js");
 
 module.exports = function (eleventyConfig) {
+  // fixing github pages bug of reseting custom domain https://www.justus.ws/tech/deploying-eleventy-to-github-pages/
+  eleventyConfig.addPassthroughCopy("CNAME");
+
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
