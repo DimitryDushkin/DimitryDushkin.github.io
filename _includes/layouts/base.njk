@@ -35,8 +35,8 @@
     <meta name="twitter:site" content="@{{ metadata.author.twitterHandle }}">
     <meta name="twitter:creator" content="@{{ metadata.author.twitterHandle }}">
     {% if image %}
-      <meta property="og:image" content="{{ image  }}">
-      {# line below was interpreting all urls like absolute to remote CDS, see README of eleventy-plugin-local-images #}
+      <meta property="og:image" content="{{ image | absoluteUrl(metadata.url) }}">
+      {# og:image  was interpreting all urls like absolute to remote CDS, see README of eleventy-plugin-local-images #}
       {# <meta property="og:image" content="{{ image | absoluteUrl(metadata.url) }}"> #}
     {% endif %}
 
