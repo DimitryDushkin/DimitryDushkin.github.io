@@ -5,7 +5,7 @@
 	
 	<link href="https://dushkin.tech/feed/feed.xml" rel="self"/>
 	<link href="https://dushkin.tech"/>
-	<updated>2022-10-30T00:00:00-00:00</updated>
+	<updated>2022-11-06T00:00:00-00:00</updated>
 	<id>https://dushkin.tech</id>
 	<author>
 		<name>Dmitrii Dushkin</name>
@@ -229,6 +229,60 @@
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;#conclusion&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I was developing this set of apps and techniques for a long time, and the journey continues. It seems like a lot, but in reality, almost every app has some predecessors (which I also used) and extends previous experience, so it&#39;s pretty easy to learn a new app.&lt;br&gt;
 I know the &amp;quot;productivity&amp;quot; apps field is indefinite, and I&#39;m happy to see you sharing your favourite apps and workflows.&lt;/p&gt;
+
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>Principles of engineering excellence</title>
+		<link href="https://dushkin.tech/posts/principles_of_engineering_excellence/"/>
+		<updated>2022-11-06T00:00:00-00:00</updated>
+		<id>https://dushkin.tech/posts/principles_of_engineering_excellence/</id>
+		<content type="html">
+		  &lt;p&gt;For the past 12 years of creating software for money, I started to sense the presence of &lt;strong&gt;generic principles of engineering excellence&lt;/strong&gt;. This sense includes not only code decisions but also concepts around software development: collaboration, management, product evolvement and others. Violating these rules feels like &amp;quot;bad smells&amp;quot; mentioned in [[&amp;quot;Refactoring&amp;quot; by Martin Fowler]] but more generically.&lt;/p&gt;
+&lt;p&gt;I plan to update this note from time to time because the &amp;quot;sense&amp;quot; mentioned above is blurry, and so is the interpretation.&lt;/p&gt;
+&lt;h2 id=&quot;core-principles&quot;&gt;Core principles &lt;a class=&quot;direct-link&quot; href=&quot;#core-principles&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Engineering excellence is a process of &lt;strong&gt;harnessing codebase chaos&lt;/strong&gt; by reducing an &lt;strong&gt;entropy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Code should have a structure &lt;strong&gt;simple for a fast high-level understanding&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Logic is understandable from code and has no surprises, i.e. no hidden dependencies and unexpected side-effects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;why&quot;&gt;Why &lt;a class=&quot;direct-link&quot; href=&quot;#why&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Eventually, to &lt;strong&gt;make a better product&lt;/strong&gt;!&lt;/li&gt;
+&lt;li&gt;Keep a &lt;strong&gt;good developer experience&lt;/strong&gt; tightly connected to a result.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;how&quot;&gt;How &lt;a class=&quot;direct-link&quot; href=&quot;#how&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reducing amount of code&lt;/strong&gt; by introducing re-usable modules
+&lt;ul&gt;
+&lt;li&gt;Make reusable code the best quality possible: it&#39;s fast, covers edge cases, and is fully specified by documentation and tests.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reusable code is s a foundation of a technical side of a product. This code includes libraries and frameworks.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;End-to-end (E2E) and unit-tests&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Knowledge sharing&lt;/strong&gt;: documentation (inc. good doc in E2E tests), internal talks, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;trade-offs&quot;&gt;Trade-offs &lt;a class=&quot;direct-link&quot; href=&quot;#trade-offs&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Engineering excellence is &lt;strong&gt;not an ultimate goal&lt;/strong&gt; (see &amp;quot;Why&amp;quot;). These aspects of product development should be taken into consideration each time before investing time in engineering excellence:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Product maturity&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;E.g. there is no sense in investing in own components library to build an MVP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team maturity&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;E.g. you&#39;ll likely create a good custom ORM if you delegate this task to a junior developer, at least in a reasonable amount of time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business reasons&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;E.g. writing end-to-end tests for features which likely to be dropped.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
 			
 		</content>

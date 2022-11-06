@@ -35,3 +35,11 @@ dt {
 p {
   margin: 1em 0 -2px 0;
 }
+
+.cover-image {
+  margin-top: 1rem;
+  width: 100%;
+  object-fit: cover;
+  max-height: 40vh;
+  object-fit: fill;
+}
