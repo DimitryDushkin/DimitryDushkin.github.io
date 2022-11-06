@@ -5,7 +5,7 @@ date: 2022-10-30
 tags:
   - productivity
 layout: layouts/post.njk
-image: https://cdn.pixabay.com/photo/2020/08/30/20/54/rice-field-5530707_1280.jpg
+image: /img/for_posts/01/rice-field.jpg
 ---
 
 I like to make my everyday work and life-related tasks faster: taking notes, remembering passwords, arranging windows and maintain things to do.

@@ -60,7 +60,6 @@ const processImageAttr = async (img, attribute) => {
 
   const external = /https?:\/\/((?:[\w\d-]+\.)+[\w\d]{2,})/i;
   const imgPath = img.getAttribute(attribute);
-
   if (external.test(imgPath)) {
     try {
       // get the filname from the path
