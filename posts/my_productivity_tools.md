@@ -20,7 +20,6 @@ I want to share software and a bit of hardware gems I found during 20+ years of 
   - Apple Reminder
   - Apple Notes
   - Google Calendar
-  - MacPass
 - Personal Knowledge Management (long-term memory):
   - Notion
   - Obsidian
@@ -34,6 +33,7 @@ I want to share software and a bit of hardware gems I found during 20+ years of 
   - Yandex.Disk
   - Timeout
   - Grammarly
+  - MacPass
 
 ## Remember things in short-term
 
@@ -74,15 +74,6 @@ There are myriads of everyday things which I should remember for a long: schedul
 - Besides covering obvious needs like adding doctor appointments, birthdays, etc. I made a shared calendar with my relatives and added events like joint trips.
 - Tried to use it as a weekly schedule (set exact wake-up time, breakfast, work, gym, etc.), but it never lifted off. Maybe it's just a little too much "productivity" for me :), but if YouTube "productivity" experts are not lying to make more content, this kind of "full-scheduled life" works for some people.
 - Platforms: macOS, iPadOS, iOS, but Google Calendar itself can be integrated almost to every mail/calendar app.
-
-**[MacPass](https://macpassapp.org)**
-
-- I use it to **store credentials** to services. I love it for open-source and using local files as a database.
-- Database files are encrypted and stored in personal cloud storage.
-- There are a lot of more popular alternatives, but almost all of them are online services and engaging browser extension installation. Credentials are one of the most important pieces of a secure online presence, and I cannot afford to store them in 3rd party services, which can (theoretically) vanish the next day and take all my credentials with them.
-- Alternatives using the same database format are available on all platforms.
-
-![...](/img/for_posts/01/macpass.png)
 
 ## Personal Knowledge Management
 
@@ -126,7 +117,10 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
   - Obisidian give the option to create **a daily note** and open it at the beginning of each day. At first, I didn't get the value of it, but now I realize that this default clean place for notes offers a smooth opportunity for any work/research-related notes. No need to spend brain energy to select a proper place for a new note. Just start typing a fresh idea, and later maybe you'll move it to the right place. People have [[a limited number of good choices made per day]], and this feature allows them to save one every day.
   - Notes can have custom properties, and some plugins allow to query these properties and generate nice tables, kanban tables, etc. Again I didn't find this helpful feature in Notion. Still, I like the idea of how it is naturally integrated into notes compared to Notion, where database entry is a different sort of data not related to the rest of the notes.
   - A cherry on top is a unique way of organizing multiple opened notes in the app — stacked view. It feels like real pieces of paper stacked on each other, and you slide them left and right to switch to the most useful now. Fantastic concept and I hope it will find more adoption in the future in other apps like Visual Studio Code or Web Browsers.
-- The only issue is a pricing model. 8$ per month (96$ per year) is too much for built-in cloud syncing, which is useful if you use the app on multiple devices. I'm using iCloud to store notes, which works great across Apple devices, but iCloud is not working in Windows. Also, 50$ per year for a commercial license with no additional features compared to a personal (free) license is a bit of a shame. Maybe after several months of the experiment, I will be convinced to buy a sync feature, though :)
+- The only issue is a pricing model.
+  - 8$ per month (96$ per year) is a bit too much for built-in cloud syncing, which is useful if you use the app on multiple devices. I'm using iCloud to store notes, which works great across Apple devices, but iCloud is not working in Windows.
+  - Also, another 50$ per year for a commercial license with no additional features compared to a personal (free) license is a bit of a shame.
+  - I really liked the tool so decided to spend next year with Obsidian and instead buying a new Call Of Duty I decided to spend this money to Obsidian Cloud Sync 😁
 - Platforms: all.
 
 ![](/img/for_posts/01/obisidian.png)
@@ -198,6 +192,15 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
 
 - It's a nice service checking grammar, spelling, punctuation and most importantly word selection and sentence structure.
 - Platforms: all.
+
+**[MacPass](https://macpassapp.org)**
+
+- I use it to **store credentials** to services. I love it for open-source and using local files as a database.
+- Database files are encrypted and stored in personal cloud storage.
+- There are a lot of more popular alternatives, but almost all of them are online services and engaging browser extension installation. Credentials are one of the most important pieces of a secure online presence, and I cannot afford to store them in 3rd party services, which can (theoretically) vanish the next day and take all my credentials with them.
+- Alternatives using the same database format are available on all platforms.
+
+![...](/img/for_posts/01/macpass.png)
 
 ## Conclusion
 
