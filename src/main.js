@@ -157,7 +157,7 @@ function removeBlurredImage(img) {
   // Ensure the browser doesn't try to draw the placeholder when the real image is present.
   img.style.backgroundImage = "none";
 }
-document.body.addEventListener(
+window.addEventListener(
   "load",
   (e) => {
     if (e.target.tagName != "IMG") {
