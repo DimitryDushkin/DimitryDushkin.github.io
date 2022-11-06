@@ -16,6 +16,11 @@ templateClass: tmpl-post
 {% set shareUrl = metadata.url + page.url %}
 
 {% block article %}
+
+{% if image %}
+<img class="cover-image" src="{{ image }}" />
+{% endif %}
+
 {{ content | safe }}
 
 <h1>🙏🙏🙏</h1>
