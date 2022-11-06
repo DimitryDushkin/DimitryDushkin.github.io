@@ -30,7 +30,6 @@
 &lt;li&gt;Apple Reminder&lt;/li&gt;
 &lt;li&gt;Apple Notes&lt;/li&gt;
 &lt;li&gt;Google Calendar&lt;/li&gt;
-&lt;li&gt;MacPass&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Personal Knowledge Management (long-term memory):
@@ -53,6 +52,7 @@
 &lt;li&gt;Yandex.Disk&lt;/li&gt;
 &lt;li&gt;Timeout&lt;/li&gt;
 &lt;li&gt;Grammarly&lt;/li&gt;
+&lt;li&gt;MacPass&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -91,14 +91,6 @@
 &lt;li&gt;Tried to use it as a weekly schedule (set exact wake-up time, breakfast, work, gym, etc.), but it never lifted off. Maybe it&#39;s just a little too much &amp;quot;productivity&amp;quot; for me :), but if YouTube &amp;quot;productivity&amp;quot; experts are not lying to make more content, this kind of &amp;quot;full-scheduled life&amp;quot; works for some people.&lt;/li&gt;
 &lt;li&gt;Platforms: macOS, iPadOS, iOS, but Google Calendar itself can be integrated almost to every mail/calendar app.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://macpassapp.org/&quot;&gt;MacPass&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I use it to &lt;strong&gt;store credentials&lt;/strong&gt; to services. I love it for open-source and using local files as a database.&lt;/li&gt;
-&lt;li&gt;Database files are encrypted and stored in personal cloud storage.&lt;/li&gt;
-&lt;li&gt;There are a lot of more popular alternatives, but almost all of them are online services and engaging browser extension installation. Credentials are one of the most important pieces of a secure online presence, and I cannot afford to store them in 3rd party services, which can (theoretically) vanish the next day and take all my credentials with them.&lt;/li&gt;
-&lt;li&gt;Alternatives using the same database format are available on all platforms.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/macpass.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;personal-knowledge-management&quot;&gt;Personal Knowledge Management &lt;a class=&quot;direct-link&quot; href=&quot;#personal-knowledge-management&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Although Apple Notes and Reminders are also used for preserving some knowledge, they do not offer any suitable (for me) experience for:&lt;/p&gt;
 &lt;ul&gt;
@@ -147,7 +139,13 @@
 &lt;li&gt;A cherry on top is a unique way of organizing multiple opened notes in the app — stacked view. It feels like real pieces of paper stacked on each other, and you slide them left and right to switch to the most useful now. Fantastic concept and I hope it will find more adoption in the future in other apps like Visual Studio Code or Web Browsers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;The only issue is a pricing model. 8$ per month (96$ per year) is too much for built-in cloud syncing, which is useful if you use the app on multiple devices. I&#39;m using iCloud to store notes, which works great across Apple devices, but iCloud is not working in Windows. Also, 50$ per year for a commercial license with no additional features compared to a personal (free) license is a bit of a shame. Maybe after several months of the experiment, I will be convinced to buy a sync feature, though :)&lt;/li&gt;
+&lt;li&gt;The only issue is a pricing model.
+&lt;ul&gt;
+&lt;li&gt;8$ per month (96$ per year) is a bit too much for built-in cloud syncing, which is useful if you use the app on multiple devices. I&#39;m using iCloud to store notes, which works great across Apple devices, but iCloud is not working in Windows.&lt;/li&gt;
+&lt;li&gt;Also, another 50$ per year for a commercial license with no additional features compared to a personal (free) license is a bit of a shame.&lt;/li&gt;
+&lt;li&gt;I really liked the tool so decided to spend next year with Obsidian and instead buying a new Call Of Duty I decided to spend this money to Obsidian Cloud Sync 😁&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Platforms: all.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/obisidian.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -226,6 +224,14 @@
 &lt;li&gt;It&#39;s a nice service checking grammar, spelling, punctuation and most importantly word selection and sentence structure.&lt;/li&gt;
 &lt;li&gt;Platforms: all.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://macpassapp.org/&quot;&gt;MacPass&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I use it to &lt;strong&gt;store credentials&lt;/strong&gt; to services. I love it for open-source and using local files as a database.&lt;/li&gt;
+&lt;li&gt;Database files are encrypted and stored in personal cloud storage.&lt;/li&gt;
+&lt;li&gt;There are a lot of more popular alternatives, but almost all of them are online services and engaging browser extension installation. Credentials are one of the most important pieces of a secure online presence, and I cannot afford to store them in 3rd party services, which can (theoretically) vanish the next day and take all my credentials with them.&lt;/li&gt;
+&lt;li&gt;Alternatives using the same database format are available on all platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/macpass.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;#conclusion&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I was developing this set of apps and techniques for a long time, and the journey continues. It seems like a lot, but in reality, almost every app has some predecessors (which I also used) and extends previous experience, so it&#39;s pretty easy to learn a new app.&lt;br&gt;
 I know the &amp;quot;productivity&amp;quot; apps field is indefinite, and I&#39;m happy to see you sharing your favourite apps and workflows.&lt;/p&gt;
