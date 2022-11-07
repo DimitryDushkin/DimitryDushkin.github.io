@@ -37,6 +37,7 @@
 &lt;li&gt;Notion&lt;/li&gt;
 &lt;li&gt;Obsidian&lt;/li&gt;
 &lt;li&gt;LucidChart&lt;/li&gt;
+&lt;li&gt;Yandex.Disk&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;System control:
@@ -49,7 +50,6 @@
 &lt;li&gt;Other
 &lt;ul&gt;
 &lt;li&gt;Keyboards: NuPhy Air 60 and Dygma Raise&lt;/li&gt;
-&lt;li&gt;Yandex.Disk&lt;/li&gt;
 &lt;li&gt;Timeout&lt;/li&gt;
 &lt;li&gt;Grammarly&lt;/li&gt;
 &lt;li&gt;MacPass&lt;/li&gt;
@@ -61,10 +61,13 @@
 &lt;p&gt;&lt;strong&gt;Apple Reminder&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Using reminders as is. I often use Siri to create a reminder like &amp;quot;Hey Siri, remind me in 5 hours to scan a document&amp;quot;. A cool benefit of the highly-coupled Apple eco-system.&lt;/li&gt;
-&lt;li&gt;Also using it to keep lists of:&lt;/li&gt;
+&lt;li&gt;Also using it to keep lists of:
+&lt;ul&gt;
 &lt;li&gt;Books to read&lt;/li&gt;
 &lt;li&gt;Movies to watch&lt;/li&gt;
 &lt;li&gt;Games to play&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Platforms: macOS, iPadOS, iOS.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/reminder.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
@@ -123,9 +126,9 @@
 &lt;ul&gt;
 &lt;li&gt;The major one is graph-like knowledge structuring support. Yes, you can put your notes in folders like Notion or Apple Notes, but that&#39;s not the main one.
 &lt;ul&gt;
-&lt;li&gt;Evangelists of graph-based solutions (sometimes called &amp;quot;[[Zattelcasten]]&amp;quot;) say that the natural way of thinking for our brain is a network of connections between pieces of information, not a hierarchical structure which Notion or Notes offer.&lt;/li&gt;
+&lt;li&gt;Evangelists of graph-based solutions (sometimes called &amp;quot;Zattelcasten&amp;quot;) say that the natural way of thinking for our brain is a network of connections between pieces of information, not a hierarchical structure which Notion or Notes offer.&lt;/li&gt;
 &lt;li&gt;Practically speaking, this feature is more about habit than technology. You can quickly add links to other notes and see information about back-links (notes which refer to current note). And that&#39;s it! So you can think of it as a swift and responsive personal Wikipedia.&lt;/li&gt;
-&lt;li&gt;The habit is creating links to essential entities in the text while you are typing or reading. That&#39;s easy when you get used to it. You need to type &lt;code&gt;[[&lt;/code&gt; and start typing the term you&#39;re going to mention and see if there is an already existing note. If not, that&#39;s not a problem; leave it as a link. Obsidian will create an empty note for you, so next time will see at least that some pages refer to the corresponding note.&lt;/li&gt;
+&lt;li&gt;The habit is creating links to essential entities in the text while you are typing or reading. That&#39;s easy when you get used to it. You need to type `` and start typing the term you&#39;re going to mention and see if there is an already existing note. If not, that&#39;s not a problem; leave it as a link. Obsidian will create an empty note for you, so next time will see at least that some pages refer to the corresponding note.&lt;/li&gt;
 &lt;li&gt;People also say that graph-representation of notes also helps to indent if hidden relationships between data which can be valuable.&lt;/li&gt;
 &lt;li&gt;Anyway. I have tried the tool briefly to say how it all works in practice. Will see. I like the concept so far.&lt;/li&gt;
 &lt;/ul&gt;
@@ -134,7 +137,7 @@
 &lt;li&gt;It&#39;s based on a markdown format, making migration or co-using notes in other apps (like Logseq) easy.&lt;/li&gt;
 &lt;li&gt;There are several helpful community plugins like better UX for creating tables, managing tasks, making UX more like an outline app, etc.&lt;/li&gt;
 &lt;li&gt;Themes, lots of them! Notion and Apple Notes lack this feature.&lt;/li&gt;
-&lt;li&gt;Obisidian give the option to create &lt;strong&gt;a daily note&lt;/strong&gt; and open it at the beginning of each day. At first, I didn&#39;t get the value of it, but now I realize that this default clean place for notes offers a smooth opportunity for any work/research-related notes. No need to spend brain energy to select a proper place for a new note. Just start typing a fresh idea, and later maybe you&#39;ll move it to the right place. People have [[a limited number of good choices made per day]], and this feature allows them to save one every day.&lt;/li&gt;
+&lt;li&gt;Obisidian give the option to create &lt;strong&gt;a daily note&lt;/strong&gt; and open it at the beginning of each day. At first, I didn&#39;t get the value of it, but now I realize that this default clean place for notes offers a smooth opportunity for any work/research-related notes. No need to spend brain energy to select a proper place for a new note. Just start typing a fresh idea, and later maybe you&#39;ll move it to the right place. People have a limited number of good choices made per day, and this feature allows them to save one every day.&lt;/li&gt;
 &lt;li&gt;Notes can have custom properties, and some plugins allow to query these properties and generate nice tables, kanban tables, etc. Again I didn&#39;t find this helpful feature in Notion. Still, I like the idea of how it is naturally integrated into notes compared to Notion, where database entry is a different sort of data not related to the rest of the notes.&lt;/li&gt;
 &lt;li&gt;A cherry on top is a unique way of organizing multiple opened notes in the app — stacked view. It feels like real pieces of paper stacked on each other, and you slide them left and right to switch to the most useful now. Fantastic concept and I hope it will find more adoption in the future in other apps like Visual Studio Code or Web Browsers.&lt;/li&gt;
 &lt;/ul&gt;
@@ -157,6 +160,11 @@
 &lt;li&gt;Platforms: all.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/01/lucidchart.png&quot; alt=&quot;...&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cloud Storage&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One of the oldest categories of apps I use. Currently, I use &lt;a href=&quot;https://disk.yandex.com/&quot;&gt;Yandex.Disk&lt;/a&gt; because of stable MacOS app work and reliable back-end. I worked for Yandex for seven years and knew the people behind the product. I can trust them :)&lt;/li&gt;
+&lt;li&gt;Platforms: all.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;system-control&quot;&gt;System control &lt;a class=&quot;direct-link&quot; href=&quot;#system-control&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Raycast&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -207,12 +215,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Cloud Storage&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;One of the oldest categories of apps I use. Currently, I use &lt;a href=&quot;https://disk.yandex.com/&quot;&gt;Yandex.Disk&lt;/a&gt; because of stable MacOS app work and reliable back-end. I worked for Yandex for seven years and knew the people behind the product. I can trust them :)&lt;/li&gt;
-&lt;li&gt;Available on all platforms.&lt;/li&gt;
-&lt;li&gt;Platforms: all.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12&quot;&gt;Timeout&lt;/a&gt;&lt;/strong&gt; app from macOS App Store&lt;/p&gt;
 &lt;ul&gt;
