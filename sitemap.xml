@@ -13,7 +13,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/my_productivity_tools/</loc>
-    <lastmod>2022-11-07T14:17:02.000Z</lastmod>
+    <lastmod>2022-11-07T23:20:58.000Z</lastmod>
   </url>
   
   
@@ -28,7 +28,22 @@
   
   <url>
     <loc>https://dushkin.tech/posts/principles_of_engineering_excellence/</loc>
-    <lastmod>2022-11-07T14:17:02.000Z</lastmod>
+    <lastmod>2022-11-07T23:20:58.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dushkin.tech/posts/js_assign_variable_in_switch/</loc>
+    <lastmod>2022-11-07T23:20:58.000Z</lastmod>
   </url>
   
   
@@ -41,7 +56,7 @@
   
   <url>
     <loc>https://dushkin.tech/about/</loc>
-    <lastmod>2022-11-07T14:17:26.720Z</lastmod>
+    <lastmod>2022-11-07T23:21:25.491Z</lastmod>
   </url>
   
   
@@ -54,7 +69,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/</loc>
-    <lastmod>2022-11-07T14:17:26.720Z</lastmod>
+    <lastmod>2022-11-07T23:21:25.491Z</lastmod>
   </url>
   
   
@@ -67,7 +82,7 @@
   
   <url>
     <loc>https://dushkin.tech/</loc>
-    <lastmod>2022-11-07T14:17:26.772Z</lastmod>
+    <lastmod>2022-11-07T23:21:25.539Z</lastmod>
   </url>
   
   
@@ -80,7 +95,7 @@
   
   <url>
     <loc>https://dushkin.tech/page-list/</loc>
-    <lastmod>2022-11-07T14:17:26.776Z</lastmod>
+    <lastmod>2022-11-07T23:21:25.543Z</lastmod>
   </url>
   
   
@@ -93,7 +108,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/</loc>
-    <lastmod>2022-11-07T14:17:26.776Z</lastmod>
+    <lastmod>2022-11-07T23:21:25.543Z</lastmod>
   </url>
   
   
@@ -106,7 +121,46 @@
   
   <url>
     <loc>https://dushkin.tech/tags/productivity/</loc>
-    <lastmod>2022-11-07T14:17:26.776Z</lastmod>
+    <lastmod>2022-11-07T23:21:25.543Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dushkin.tech/tags/javascript/</loc>
+    <lastmod>2022-11-07T23:21:25.543Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dushkin.tech/tags/typescript/</loc>
+    <lastmod>2022-11-07T23:21:25.543Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dushkin.tech/tags/flow/</loc>
+    <lastmod>2022-11-07T23:21:25.543Z</lastmod>
   </url>
   
   
@@ -119,6 +173,6 @@
   
   <url>
     <loc>https://dushkin.tech/tags/software-engineering/</loc>
-    <lastmod>2022-11-07T14:17:26.776Z</lastmod>
+    <lastmod>2022-11-07T23:21:25.543Z</lastmod>
   </url>
 </urlset>

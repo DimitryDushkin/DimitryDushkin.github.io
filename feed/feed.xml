@@ -5,7 +5,7 @@
 	
 	<link href="https://dushkin.tech/feed/feed.xml" rel="self"/>
 	<link href="https://dushkin.tech"/>
-	<updated>2022-11-06T00:00:00-00:00</updated>
+	<updated>2022-11-07T00:00:00-00:00</updated>
 	<id>https://dushkin.tech</id>
 	<author>
 		<name>Dmitrii Dushkin</name>
@@ -291,6 +291,20 @@ I know the &amp;quot;productivity&amp;quot; apps field is indefinite, and I&#39;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>How to assign a variable to switch statement result</title>
+		<link href="https://dushkin.tech/posts/js_assign_variable_in_switch/"/>
+		<updated>2022-11-07T00:00:00-00:00</updated>
+		<id>https://dushkin.tech/posts/js_assign_variable_in_switch/</id>
+		<content type="html">
+		  &lt;p&gt;It’s a helpful trick that allows writing compact yet highly type-proof code to deal with enums both in TypeScript and Flow.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;step&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; Step&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;One&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br&gt;      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;one&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; Step&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Two&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br&gt;      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;two&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; Step&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Three&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br&gt;      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;three&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I use in React &lt;code&gt;render&lt;/code&gt; as well.&lt;/p&gt;
 
 			
 		</content>
