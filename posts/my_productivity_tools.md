@@ -24,13 +24,13 @@ I want to share software and a bit of hardware gems I found during 20+ years of 
   - Notion
   - Obsidian
   - LucidChart
+  - Yandex.Disk
 - System control:
   - Raycast
   - Lunar
   - ITerm 2
 - Other
   - Keyboards: NuPhy Air 60 and Dygma Raise
-  - Yandex.Disk
   - Timeout
   - Grammarly
   - MacPass
@@ -43,9 +43,9 @@ There are myriads of everyday things which I should remember for a long: schedul
 
 - Using reminders as is. I often use Siri to create a reminder like "Hey Siri, remind me in 5 hours to scan a document". A cool benefit of the highly-coupled Apple eco-system.
 - Also using it to keep lists of:
-- Books to read
-- Movies to watch
-- Games to play
+  - Books to read
+  - Movies to watch
+  - Games to play
 - Platforms: macOS, iPadOS, iOS.
 
 ![...](/img/for_posts/01/reminder.png)
@@ -105,16 +105,16 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
 - I'm exploring ways of using it for research work and writing articles based on research. I guess it's just my habit from science days when I was gathering a lot of sources before doing anything and verifying that my work makes sense :)
 - There are several features which make Obisidian a much more suitable tool for research and long-format writing compared to Notion:
   - The major one is graph-like knowledge structuring support. Yes, you can put your notes in folders like Notion or Apple Notes, but that's not the main one.
-    - Evangelists of graph-based solutions (sometimes called "[[Zattelcasten]]") say that the natural way of thinking for our brain is a network of connections between pieces of information, not a hierarchical structure which Notion or Notes offer.
+    - Evangelists of graph-based solutions (sometimes called "Zattelcasten") say that the natural way of thinking for our brain is a network of connections between pieces of information, not a hierarchical structure which Notion or Notes offer.
     - Practically speaking, this feature is more about habit than technology. You can quickly add links to other notes and see information about back-links (notes which refer to current note). And that's it! So you can think of it as a swift and responsive personal Wikipedia.
-    - The habit is creating links to essential entities in the text while you are typing or reading. That's easy when you get used to it. You need to type `[[` and start typing the term you're going to mention and see if there is an already existing note. If not, that's not a problem; leave it as a link. Obsidian will create an empty note for you, so next time will see at least that some pages refer to the corresponding note.
+    - The habit is creating links to essential entities in the text while you are typing or reading. That's easy when you get used to it. You need to type `` and start typing the term you're going to mention and see if there is an already existing note. If not, that's not a problem; leave it as a link. Obsidian will create an empty note for you, so next time will see at least that some pages refer to the corresponding note.
     - People also say that graph-representation of notes also helps to indent if hidden relationships between data which can be valuable.
     - Anyway. I have tried the tool briefly to say how it all works in practice. Will see. I like the concept so far.
   - The next one is that it's entirely local! So I can not worry about your data integrity to some degree. Also, it does search and linking very fast. And you get a natural offline mode (_cough-Notion-cough_) :)
   - It's based on a markdown format, making migration or co-using notes in other apps (like Logseq) easy.
   - There are several helpful community plugins like better UX for creating tables, managing tasks, making UX more like an outline app, etc.
   - Themes, lots of them! Notion and Apple Notes lack this feature.
-  - Obisidian give the option to create **a daily note** and open it at the beginning of each day. At first, I didn't get the value of it, but now I realize that this default clean place for notes offers a smooth opportunity for any work/research-related notes. No need to spend brain energy to select a proper place for a new note. Just start typing a fresh idea, and later maybe you'll move it to the right place. People have [[a limited number of good choices made per day]], and this feature allows them to save one every day.
+  - Obisidian give the option to create **a daily note** and open it at the beginning of each day. At first, I didn't get the value of it, but now I realize that this default clean place for notes offers a smooth opportunity for any work/research-related notes. No need to spend brain energy to select a proper place for a new note. Just start typing a fresh idea, and later maybe you'll move it to the right place. People have a limited number of good choices made per day, and this feature allows them to save one every day.
   - Notes can have custom properties, and some plugins allow to query these properties and generate nice tables, kanban tables, etc. Again I didn't find this helpful feature in Notion. Still, I like the idea of how it is naturally integrated into notes compared to Notion, where database entry is a different sort of data not related to the rest of the notes.
   - A cherry on top is a unique way of organizing multiple opened notes in the app — stacked view. It feels like real pieces of paper stacked on each other, and you slide them left and right to switch to the most useful now. Fantastic concept and I hope it will find more adoption in the future in other apps like Visual Studio Code or Web Browsers.
 - The only issue is a pricing model.
@@ -133,6 +133,11 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
 - Platforms: all.
 
 ![...](/img/for_posts/01/lucidchart.png)
+
+**Cloud Storage**
+
+- One of the oldest categories of apps I use. Currently, I use [Yandex.Disk](https://disk.yandex.com) because of stable MacOS app work and reliable back-end. I worked for Yandex for seven years and knew the people behind the product. I can trust them :)
+- Platforms: all.
 
 ## System control
 
@@ -176,12 +181,6 @@ And that's fine. Apple's apps are good at quick information capture (in terms of
     - ![...](/img/for_posts/01/nuphy.png)
   - Work: **Dygma Raise**. It's a 60% split ergonomic mechanical keyboard with optional tenting capability for a more ergonomic wrist position. I love it for the comfort of typing. One small con is that the sound of typing could be better due to its construction. I use linear lubed switches + some keyboard mods.
     - ![...](/img/for_posts/01/dygma.png)
-
-**Cloud Storage**
-
-- One of the oldest categories of apps I use. Currently, I use [Yandex.Disk](https://disk.yandex.com) because of stable MacOS app work and reliable back-end. I worked for Yandex for seven years and knew the people behind the product. I can trust them :)
-- Available on all platforms.
-- Platforms: all.
 
 **[Timeout](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12)** app from macOS App Store
 
