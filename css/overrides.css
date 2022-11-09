@@ -43,3 +43,7 @@ p {
   max-height: 40vh;
   object-fit: fill;
 }
+
+iframe {
+  width: 100%;
+}

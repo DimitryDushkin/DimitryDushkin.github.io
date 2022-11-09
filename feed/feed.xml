@@ -5,7 +5,7 @@
 	
 	<link href="https://dushkin.tech/feed/feed.xml" rel="self"/>
 	<link href="https://dushkin.tech"/>
-	<updated>2022-11-07T00:00:00-00:00</updated>
+	<updated>2022-11-10T00:00:00-00:00</updated>
 	<id>https://dushkin.tech</id>
 	<author>
 		<name>Dmitrii Dushkin</name>
@@ -305,6 +305,42 @@ I know the &amp;quot;productivity&amp;quot; apps field is indefinite, and I&#39;
 		  &lt;p&gt;It’s a helpful trick that allows writing compact yet highly type-proof code to deal with enums both in TypeScript and Flow.&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;step&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; Step&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;One&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br&gt;      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;one&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; Step&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Two&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br&gt;      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;two&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; Step&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Three&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br&gt;      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token literal-property property&quot;&gt;three&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I use in React &lt;code&gt;render&lt;/code&gt; as well.&lt;/p&gt;
+
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>HP U28 for work and gaming review</title>
+		<link href="https://dushkin.tech/posts/HP_U28_for_work_and_gaming_review/"/>
+		<updated>2022-11-10T00:00:00-00:00</updated>
+		<id>https://dushkin.tech/posts/HP_U28_for_work_and_gaming_review/</id>
+		<content type="html">
+		  &lt;p&gt;So after trying some monitors I decided to buy HP U28. I had some surprises after, but overall it is a good monitor for its price (500 pounds in July 2021).&lt;br&gt;
+My must have features for monitor are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4K for text clarity&lt;/strong&gt;. I read a lot of texts and write a lot of code, so it is crucial for me the see text perfectly. Also only 4K monitors are recognised by MacOS as &amp;quot;retina&amp;quot; and you can scale MacOS UI without any blurring.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;USB-C with power delivery&lt;/strong&gt; at least 65W and built-in USB hub. It allows to use a single cable for charging, video output, connecting keyboard and mouse.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HDR&lt;/strong&gt;. This technology introduces luminance along with pixel colour. Also monitor should support wider colour range like DCI-P3. It is not crucial, but a nice addition for a low extra price for entry level HDR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/02/hp_u28.jpeg&quot; alt=&quot;HP U28&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I have 3 devices to plug into this monitor: my work MacBook 16, gaming laptop and PS5.&lt;/p&gt;
+&lt;h2 id=&quot;for-work&quot;&gt;For work &lt;a class=&quot;direct-link&quot; href=&quot;#for-work&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;For working on MacBook, it is perfect&lt;/strong&gt;. I give here 5 stars. It provides good text clarity, but not the best possible, probably because 28&amp;quot; is a little too big for 4K. I had previously old Dell 27&amp;quot; 4K, and it was perfect. Also, HP u28 gives HDR out of the box and 10-bit colours on each channel. It has just entry level HDR 400, which means maximum brightness limited with 400 nits. For comparison iPhone 12 has maximum brightness 1200 nits.&lt;/p&gt;
+&lt;h2 id=&quot;for-gaming-on-pc&quot;&gt;For gaming on PC &lt;a class=&quot;direct-link&quot; href=&quot;#for-gaming-on-pc&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;For gaming on PC, I give it 3.5 stars&lt;/strong&gt;. I have a laptop with GeForce 2070, and it has DisplayPort 1.4 over USB-C (Thunderbolt) and HDMI 2.0. It turned out (well, it was in specs, actually) monitor have only DisplayPort 1.2 (!), which do not support HDR officially. I had a lot of trouble getting it right.&lt;/p&gt;
+&lt;p&gt;There are two options for me in this setup. &lt;strong&gt;First is to use USB-C to USB-C connection&lt;/strong&gt;, which allows leave keyboard and mouse plugged into monitor, but there are many troubles with HDR. For some reason, HDR can be turned on in Windows 10. I do not know why because there is no such thing in DP 1.2 specs. But anyway, when I am turning on HDR, setting 10-bit RGB, everything seems fine until I&#39;ll start some game, and it immediately resets to 6-bit (!) with awful colour banding. Colour banding is when you see clear colour steps in gradients, like back in 1995. I can switch from RBG (native) to YCbCr 4:4:4 (it is a colour compression method), but I get limited colour, and I see colour banding as well, but not so bad as if it was on 6 bit. So after killing a lot of time on it, I decided to turn off HDR in Windows and enjoy 8 bit RGB with a Photo colour profile. Sometimes I select YCbCr 4:4:4 10 bit + HDR because it is a bit better in darker games, but as I said this options gives noticeable color banding.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/02/color_banding.jpeg&quot; alt=&quot;Color banding&quot;&gt;&lt;br&gt;
+&lt;em&gt;Color banding on the left&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Another option for gaming PC&lt;/strong&gt; is to hook up HDMI. It works well on HDR 8-bit RGB, but I have to manually reconnect the mouse and keyboard from monitor to laptop. I hate wires on a desk and all this manual switching, so it is not for me. Maybe I&#39;ll make up something for this later.&lt;/p&gt;
+&lt;p&gt;By the way, there is &lt;strong&gt;no official G-SYNC support (only AMD FreeSync)&lt;/strong&gt;. Although Nvidia Control Panel allows to turn on G-SYNC, it just not working. I see awful screen tearing in games, so I turned on VSYNC in games (it&#39;s like a software solution to screen tearing problem, but not so efficient). There is such an option for DisplayPort connection, but HDMI lucks it.&lt;/p&gt;
+&lt;h2 id=&quot;for-gaming-on-ps5&quot;&gt;For gaming on PS5 &lt;a class=&quot;direct-link&quot; href=&quot;#for-gaming-on-ps5&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;And the last one is PS5, and the monitor gets 5 stars here. HDR looks amazing, true 4K. I cannot complain here. Also, I bought a 5wt soundbar (costs around 20 quids) and connected it to the monitor. This setup gives decent sound for PS 5 games.&lt;/p&gt;
+&lt;h2 id=&quot;dimming-zones&quot;&gt;Dimming zones &lt;a class=&quot;direct-link&quot; href=&quot;#dimming-zones&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;ve noticed there are actually dimming zones, but they are quite simple and consists of top and bottom array lightning. Here is the video:&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nVxh1Hwyiks&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;#conclusion&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I guess this is just the best option for its price for me. Better solutions in terms of PC gaming starts from 800 quids (if you need 4K), that is not I&#39;m ready to spend now. I&#39;ll wait until OLED or mini-LED monitors will become affordable for better HDR and HDMI 2.1 for better PS5 experience.&lt;/p&gt;
 
 			
 		</content>
