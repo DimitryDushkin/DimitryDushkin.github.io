@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-Hey! I'm Dmitrii Dushkin, a software engineer with scientific experience.
+Hey! I'm Dmitrii Dushkin, a software engineer with scientific background.
 This blog is a collection of my thoughts of various topics:
 
 - Software engeeniring,
