@@ -41,7 +41,7 @@ p {
   width: 100%;
   object-fit: cover;
   max-height: 40vh;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 iframe {
