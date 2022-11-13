@@ -1,8 +1,30 @@
-<ul>
+<ul class="home-posts">
 {% for post in postslist | reverse %}
-  <li>
-    <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time  datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+  <li class="home-post">
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    <div class="home-post__content">
+      <div>
+        <h3>
+            <a href="{{ post.url | url }}">
+              {{ post.data.title }}  
+            </a>
+        </h3>
+        <p>
+          {{ post.data.description }}
+        </p>
+        <p>
+          {% for tag in post.data.tags %}
+            {% if (loop.index > 1) %}
+              {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+              <a href="{{ tagUrl | url }}" class="tag">#{{tag}}</a>
+            {% endif %}
+          {% endfor%}
+        </p>
+      </div>
+      {% if post.data.image %}
+        <img src="{{ post.data.image }}" />
+      {% endif %}
+    </div>
   </li>
 {% endfor %}
 </ul>

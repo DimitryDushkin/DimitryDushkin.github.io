@@ -1,9 +1,9 @@
 ---
 title: When You’re overwhelmed, simplify
-description: Software and a bit of hardware gems I found during 20+ years of sharpening the "Second brain" blade
+description: Amazing article on art of task simplification by Nataliia. I like this kind of stories since they reflect the value of scientific approach in solving everyday tasks in programming
 date: 2022-11-10
 tags:
-  - engineering principles
+  - software engineering
 layout: layouts/post.njk
 image: /img/for_posts/03/viking.jpg
 ---

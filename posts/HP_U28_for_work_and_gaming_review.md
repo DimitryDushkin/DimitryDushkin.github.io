@@ -1,9 +1,11 @@
 ---
 title: HP U28 for work and gaming review
-date: 2022-11-10
+description: I spend ridiculous amount of time choosing right monitor for my "work from home" and "play at home" setup, so I was doomed to write an article about. This is my review of HP monitor "U28".
+date: 2022-10-10
 tags:
   - tech review
 layout: layouts/post.njk
+image: /img/for_posts/02/hp_u28.jpeg
 ---
 
 So after trying some monitors I decided to buy HP U28. I had some surprises after, but overall it is a good monitor for its price (500 pounds in July 2021).
@@ -12,8 +14,6 @@ My must have features for monitor are:
 - **4K for text clarity**. I read a lot of texts and write a lot of code, so it is crucial for me the see text perfectly. Also only 4K monitors are recognised by MacOS as "retina" and you can scale MacOS UI without any blurring.
 - **USB-C with power delivery** at least 65W and built-in USB hub. It allows to use a single cable for charging, video output, connecting keyboard and mouse.
 - **HDR**. This technology introduces luminance along with pixel colour. Also monitor should support wider colour range like DCI-P3. It is not crucial, but a nice addition for a low extra price for entry level HDR.
-
-![HP U28](/img/for_posts/02/hp_u28.jpeg)
 
 I have 3 devices to plug into this monitor: my work MacBook 16, gaming laptop and PS5.
 

@@ -23,6 +23,15 @@ templateClass: tmpl-post
 
 {{ content | safe }}
 
+<div style="margin-top: 24px">
+  {% for tag in tags %}
+    {% if (loop.index > 1) %}
+      {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="tag">#{{tag}}</a>
+    {% endif %}
+  {% endfor%}
+</div>
+
 <h1>***</h1>
 <p>
   Since you've made it this far, <a href="{{ shareUrl | safe }}" on-click="share">sharing</a> this article on your favorite social media network 

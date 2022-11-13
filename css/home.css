@@ -1,0 +1,45 @@
+.home-posts {
+  margin: 0;
+  padding: 0;
+}
+.home-post {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  list-style: none;
+  margin: 32px 0;
+  padding: 0 0 32px;
+}
+.home-post time {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.home-post h3 {
+  margin-top: 8px;
+}
+
+.home-post__content {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  grid-column-gap: 12px;
+}
+
+.home-post img {
+  margin-top: 8px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.home-post:last-child {
+  border-bottom: none;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--background-alt);
+  color: var(--text-muted);
+  border-radius: 12px;
+  padding: 4px 8px;
+  margin: 4px 4px 0 0;
+}
