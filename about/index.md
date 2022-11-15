@@ -18,4 +18,5 @@ This blog is a collection of my thoughts of various topics:
 Connect with me on:
 
 - [Twitter](https://twitter.com/sky2high0),
+- [Github](https://github.com/DimitryDushkin),
 - [LinkedIn](https://www.linkedin.com/in/dndushkin/).
