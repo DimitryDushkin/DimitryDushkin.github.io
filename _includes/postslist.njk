@@ -6,7 +6,7 @@
       <div>
         <h3>
             <a href="{{ post.url | url }}">
-              {{ post.data.title }}  
+              {{ post.data.title }}
             </a>
         </h3>
         <p>
@@ -22,7 +22,7 @@
         </p>
       </div>
       {% if post.data.image %}
-        <img src="{{ post.data.image }}" />
+        <img src="{{ post.data.image }}" class="post-list-img" alt="Preview image for post '{{ post.data.title }}'" />
       {% endif %}
     </div>
   </li>

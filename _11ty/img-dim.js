@@ -95,10 +95,15 @@ const processImage = async (img, outputPath) => {
         `background-image:url("${await blurryPlaceholder(src)}")`
     );
     const doc = img.ownerDocument;
+    const imgClass = img.getAttribute("class");
     const picture = doc.createElement("picture");
     const avif = doc.createElement("source");
     const webp = doc.createElement("source");
     const jpeg = doc.createElement("source");
+    avif.setAttribute("class", imgClass);
+    webp.setAttribute("class", imgClass);
+    jpeg.setAttribute("class", imgClass);
+
     await setSrcset(avif, src, "avif");
     avif.setAttribute("type", "image/avif");
     await setSrcset(webp, src, "webp");
@@ -120,11 +125,14 @@ const processImage = async (img, outputPath) => {
 async function setSrcset(img, src, format) {
   const setInfo = await srcset(src, format);
   img.setAttribute("srcset", setInfo.srcset);
+  // https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
+  // sizes tells how many pixel image will occupy in final layout, specifiying it helps to load image early before CSS processing
+  // can be used with max-width to specify why size image will have with specific viewport size
   img.setAttribute(
     "sizes",
-    img.getAttribute("align")
-      ? "(max-width: 608px) 50vw, 187px"
-      : "(max-width: 608px) 100vw, 608px"
+    img.getAttribute("class") === "post-list-img" // 'post-list-img' for list, otherwise for post
+      ? "30vw"
+      : "90vw"
   );
   return setInfo.fallback;
 }
