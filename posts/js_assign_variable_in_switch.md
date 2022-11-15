@@ -1,7 +1,7 @@
 ---
 title: How to assign a variable to switch statement result
 description: Simple and useful JS snippet
-date: 2022-11-07
+date: 2022-09-01
 tags:
   - javascript
   - typescript
