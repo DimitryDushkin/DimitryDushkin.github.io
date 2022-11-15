@@ -22,7 +22,9 @@
         </p>
       </div>
       {% if post.data.image %}
-        <img src="{{ post.data.image }}" class="post-list-img" alt="Preview image for post '{{ post.data.title }}'" />
+        <a href="{{ post.url | url }}">
+          <img src="{{ post.data.image }}" class="post-list-img" alt="Preview image for post '{{ post.data.title }}'" />
+        </a>
       {% endif %}
     </div>
   </li>

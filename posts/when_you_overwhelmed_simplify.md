@@ -12,7 +12,7 @@ _by Nataliia Dushkina (https://github.com/indra-uolles)_
 
 When I saw this phrase, I felt that somebody had crept into my head and was stealing thoughts out of it :D Seriously, it’s one of my main work principles that I try to follow.
 
-Let me give an example of how to use this principle when you work as a front-end developer.
+Let me give an example of how to use this principle when you work as a front-end developer.q
 
 Not long ago, I was involved in large legacy project update tasks. Its current front-end framework version was 2, and we were going to promise that we’ll update it to 13 quickly enough.
 
