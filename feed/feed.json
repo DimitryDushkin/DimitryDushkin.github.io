@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://dushkin.tech/posts/logseq_tasks_plugin/",
+      "url": "https://dushkin.tech/posts/logseq_tasks_plugin/",
+      "title": "Logseq task completion tracker plugin",
+      "content_html": "<p>One tool that I've found helpful in managing my workload is a <strong>task list</strong>. However, manually writing down what I've accomplished and what still needs to be done each week can be time-consuming and tedious.</p>\n<p>Recently, I discovered <strong><a href=\"https://logseq.com\">Logseq</a></strong>, a powerful tool for keeping track of tasks, notes, and more. As I began to explore its features, I realized that I could take my task management to the next level by automating the process of report generation.</p>\n<p>With this in mind, I set out to create a Logseq plugin that would automate the report generation of tasks done for a given period.</p>\n<p>This plugin adds <code>completed:: &lt;today&gt;</code> property to task upon checking it. Also it adds <strong>slash command</strong> with a query <strong>to get tasks done last week</strong> : <code>Completed tasks for the past week</code></p>\n<ul>\n<li>Github — <a href=\"https://github.com/DimitryDushkin/logseq-plugin-task-check-date\">https://github.com/DimitryDushkin/logseq-plugin-task-check-date</a></li>\n<li>The plugin is now available in the Logseq Marketplace. Look for &quot;<strong>Task completion</strong>&quot;.</li>\n</ul>\n",
+      "date_published": "2023-01-21T00:00:00-00:00"
+    },{
       "id": "https://dushkin.tech/posts/task_planning_algorithm/",
       "url": "https://dushkin.tech/posts/task_planning_algorithm/",
       "title": "Task planning algorithm in TypeScript: real-life problem solved with a graph theory",

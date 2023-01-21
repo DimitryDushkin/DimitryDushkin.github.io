@@ -5,7 +5,7 @@
 	
 	<link href="https://dushkin.tech/feed/feed.xml" rel="self"/>
 	<link href="https://dushkin.tech"/>
-	<updated>2022-11-15T00:00:00-00:00</updated>
+	<updated>2023-01-21T00:00:00-00:00</updated>
 	<id>https://dushkin.tech</id>
 	<author>
 		<name>Dmitrii Dushkin</name>
@@ -445,6 +445,25 @@ I know the &amp;quot;productivity&amp;quot; apps field is indefinite, and I&#39;
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;#conclusion&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;The code from the article you can find &lt;a href=&quot;https://github.com/DimitryDushkin/project-tasks-scheduling-engine&quot;&gt;here&lt;/a&gt;. You can grab and use it as an &lt;a href=&quot;https://www.npmjs.com/package/project-tasks-scheduling-engine&quot;&gt;NPM package&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I’m wondering if a presented solution has some flaws. If you spotted some please contact me here or on &lt;a href=&quot;https://github.com/DimitryDushkin/project-tasks-scheduling-engine/issues&quot;&gt;issues section in Github&lt;/a&gt;.&lt;/p&gt;
+
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>Logseq task completion tracker plugin</title>
+		<link href="https://dushkin.tech/posts/logseq_tasks_plugin/"/>
+		<updated>2023-01-21T00:00:00-00:00</updated>
+		<id>https://dushkin.tech/posts/logseq_tasks_plugin/</id>
+		<content type="html">
+		  &lt;p&gt;One tool that I&#39;ve found helpful in managing my workload is a &lt;strong&gt;task list&lt;/strong&gt;. However, manually writing down what I&#39;ve accomplished and what still needs to be done each week can be time-consuming and tedious.&lt;/p&gt;
+&lt;p&gt;Recently, I discovered &lt;strong&gt;&lt;a href=&quot;https://logseq.com/&quot;&gt;Logseq&lt;/a&gt;&lt;/strong&gt;, a powerful tool for keeping track of tasks, notes, and more. As I began to explore its features, I realized that I could take my task management to the next level by automating the process of report generation.&lt;/p&gt;
+&lt;p&gt;With this in mind, I set out to create a Logseq plugin that would automate the report generation of tasks done for a given period.&lt;/p&gt;
+&lt;p&gt;This plugin adds &lt;code&gt;completed:: &amp;lt;today&amp;gt;&lt;/code&gt; property to task upon checking it. Also it adds &lt;strong&gt;slash command&lt;/strong&gt; with a query &lt;strong&gt;to get tasks done last week&lt;/strong&gt; : &lt;code&gt;Completed tasks for the past week&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Github — &lt;a href=&quot;https://github.com/DimitryDushkin/logseq-plugin-task-check-date&quot;&gt;https://github.com/DimitryDushkin/logseq-plugin-task-check-date&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The plugin is now available in the Logseq Marketplace. Look for &amp;quot;&lt;strong&gt;Task completion&lt;/strong&gt;&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;
 
 			
 		</content>
