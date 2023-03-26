@@ -55,6 +55,10 @@ npm run watch
 ### 6. Build and test
 
 ```
+
+# Save images
+./.persistimages.sh
+
 npm run build
 ```
 
