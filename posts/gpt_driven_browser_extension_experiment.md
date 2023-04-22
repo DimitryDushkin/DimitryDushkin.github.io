@@ -15,14 +15,14 @@ At first, everything looked surprisingly smooth. GPT gave a complete file struct
 
 ![GPT response on initial request](/img/for_posts/gpt-toolbelt/gpt-response-0.png)
 
-## Strike one - Old API
+## Bug one - Old API
 
 It was not working, though, since it was replaced with comments article's content extraction and API calls. But It's okay.
 After asking to use a specific library for extraction (Readability.js) and a particular OpenAI API for summarisation, it produced, at first sight, quite worthy code. With one minor issue -- it was not working. 🤷‍♂️ I asked how to debug an extension and started debugging.
 
 The first issue was that GPT suggested using old (inexistent) OpenAI API. I googled the current one and modified the code.
 
-## Strike two - "forgot" about permissions to not used Chrome API
+## Bug two - "forgot" about permissions to not used Chrome API
 
 Secondly, it used `chrome.local.storage` but forgot to set permissions for it in manifest.json. I showed GPT an error, and GPT apologised and answered with the correct instructions.
 
@@ -33,14 +33,14 @@ GPT:
 
 Finally, we are at the stage of making the correct API request without errors in JS!
 
-## Strike three - incorrect API request params
+## Bug three - incorrect API request params
 
 But it turned out it wasn't initially correctly calling API. I inspected the API response and found that it returned empty `choices[0].text and choices[0].finish_reason === "length"`
 ![GPT response on API question](/img/for_posts/gpt-toolbelt/gpt-response-2.jpg)
 
 Okay, it so turned out max_tokens shouldn't be 0. Who would have thought...
 
-## Forth miss - mess after multiple rewrites
+## Bug four - mess after multiple rewrites
 
 Let's try again. It was not working. A problem in `background.js`, it cannot read the id from the tab. Telling the error again and got a fixed version.
 At last, behold the successfully functioning extension!
