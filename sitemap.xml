@@ -13,7 +13,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/js_assign_variable_in_switch/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -28,7 +28,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/HP_U28_for_work_and_gaming_review/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -43,7 +43,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/my_productivity_tools/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -58,7 +58,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/principles_of_engineering_excellence/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -73,7 +73,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/when_you_overwhelmed_simplify/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -88,7 +88,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/task_planning_algorithm/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -103,7 +103,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/logseq_tasks_plugin/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -118,7 +118,22 @@
   
   <url>
     <loc>https://dushkin.tech/posts/gpt_driven_browser_extension_experiment/</loc>
-    <lastmod>2023-04-22T17:38:14.000Z</lastmod>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dushkin.tech/posts/personal_task_management_with_obsidian/</loc>
+    <lastmod>2023-10-21T14:44:26.000Z</lastmod>
   </url>
   
   
@@ -131,7 +146,7 @@
   
   <url>
     <loc>https://dushkin.tech/about/</loc>
-    <lastmod>2023-04-22T17:38:36.486Z</lastmod>
+    <lastmod>2023-10-21T14:44:47.881Z</lastmod>
   </url>
   
   
@@ -144,7 +159,7 @@
   
   <url>
     <loc>https://dushkin.tech/posts/</loc>
-    <lastmod>2023-04-22T17:38:36.486Z</lastmod>
+    <lastmod>2023-10-21T14:44:47.881Z</lastmod>
   </url>
   
   
@@ -157,7 +172,7 @@
   
   <url>
     <loc>https://dushkin.tech/</loc>
-    <lastmod>2023-04-22T17:38:36.630Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.037Z</lastmod>
   </url>
   
   
@@ -170,7 +185,7 @@
   
   <url>
     <loc>https://dushkin.tech/page-list/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.037Z</lastmod>
   </url>
   
   
@@ -183,7 +198,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -196,7 +211,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/tech-review/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -209,7 +224,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/gpt/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -222,7 +237,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/large-language-model/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -235,33 +250,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/javascript/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dushkin.tech/tags/productivity/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dushkin.tech/tags/task-planning/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -274,7 +263,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/typescript/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -287,7 +276,33 @@
   
   <url>
     <loc>https://dushkin.tech/tags/flow/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dushkin.tech/tags/productivity/</loc>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dushkin.tech/tags/task-planning/</loc>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -300,7 +315,7 @@
   
   <url>
     <loc>https://dushkin.tech/tags/software-engineering/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
   
   
@@ -313,6 +328,6 @@
   
   <url>
     <loc>https://dushkin.tech/tags/algorithms/</loc>
-    <lastmod>2023-04-22T17:38:36.634Z</lastmod>
+    <lastmod>2023-10-21T14:44:48.041Z</lastmod>
   </url>
 </urlset>
