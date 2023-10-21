@@ -38,6 +38,6 @@ Engineering excellence is **not an ultimate goal** (see "Why"). These aspects of
 - **Product maturity**
   - E.g. there is no sense in investing in own components library to build an MVP
 - **Team maturity**
-  - E.g. you'll likely create a good custom ORM if you delegate this task to a junior developer, at least in a reasonable amount of time.
+  - E.g. you'll unlikely create a good custom ORM if you delegate this task to a junior developer, at least in a reasonable amount of time.
 - **Business reasons**
   - E.g. writing end-to-end tests for features which likely to be dropped.
