@@ -9,7 +9,7 @@ layout: layouts/post.njk
 image: /img/for_posts/task_management/task_managment_post_poster.jpg
 ---
 
-As we discussed in the post ["When you're overwhelmed, simplify"](https://dushkin.tech/posts/when_you_overwhelmed_simplify/), simplifying complex tasks is crucial. This is especially true when you're involved in multiple workstreams and collaborate with dozens of people simultaneously
+As we discussed in the post ["When you're overwhelmed, simplify"](https://dushkin.tech/posts/when_you_overwhelmed_simplify/), simplifying complex tasks is crucial. This is especially true when you're involved in multiple workstreams and collaborate with dozens of people simultaneously every day.
 
 My main tool in such cases is the preservation and structuring of information, supplemented by a few automations. The process focuses on:
 - Gathering all input that helps in solving tasks,
@@ -21,7 +21,7 @@ My main tool in such cases is the preservation and structuring of information, s
 Research shows [3, 4] that distributing different aspects of a task to different areas of the brain usually yields better results. I see personal task management as one of these ways of dealing with everyday activity which adds value overall and unloads a brain with tons of staff.
 
 ## On my process
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l5n8VvumNrc?si=DN_SqFGKM8zLc-Gj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5n8VvumNrc?si=AT_dJbYTBj4YHuHa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 _Video with process in the nutshell: creating tasks, list of most imporatant tasks, archiving tasks_
 
 The process is focused around **"Tasks"** page with a following structure:
