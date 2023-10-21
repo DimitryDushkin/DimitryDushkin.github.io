@@ -1,1 +1,3 @@
-data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' xmlns%3Axlink='http%3A//www.w3.org/1999/xlink' viewBox='0 0 1398 1084'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='.5'%3E%3C/feGaussianBlur%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'%3E%3C/feFuncA%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23b)' preserveAspectRatio='none' height='100%25' width='100%25' xlink%3Ahref='data%3Aimage/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAIAAABV+fA3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAdElEQVR4nF3OSw4DIQwD0Ln/EdmygEggUSAk/Ew73VRTb59k+2JmIvLeq+p55gIwv9l7A3jYOUdEjDEhpDEGgDHGnPO2tRYzO+fSq7TW1loA9t63lVJCCMycUiKi3vuvs9ZqrSWinHNr7bGnqjFGEfk7+bE3L6e3YEG+86EAAAAASUVORK5CYII='%3E%3C/image%3E%3C/svg%3E
+version https://git-lfs.github.com/spec/v1
+oid sha256:3076ac5b15e749c0c31801ae1eab8f3b55e51e71708683f2d477ffaefb47e111
+size 798
