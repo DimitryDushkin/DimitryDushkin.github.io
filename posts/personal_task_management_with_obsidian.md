@@ -11,25 +11,25 @@ image: /img/for_posts/task_management/task_managment_post_poster.jpg
 
 As we discussed in the post ["When you're overwhelmed, simplify"](https://dushkin.tech/posts/when_you_overwhelmed_simplify/), simplifying complex tasks is crucial. This is especially true when you're involved in multiple workstreams and collaborate with dozens of people simultaneously daily.
 
-My primary tool in such cases is the preservation and structuring of information, supplemented by a few automation. The process focuses on:
+In situations like these, my main approach is to keep information well-organized and enhance workflow with some automation, which includes:
 
 - Gathering all input that helps in solving tasks,
 - Structuring tasks by categorizing them into projects,
 - Ranking projects by their current importance,
 - Highlighting the most important tasks at the moment,
-- Preserving a list of completed tasks for compiling a performance self-review twice a year.
+- Preserving a list of completed tasks for compiling a performance self-review.
 
-Research shows [3, 4] that distributing different aspects of a task to other brain areas usually yields better results. Personal task management is one of these ways of dealing with everyday activity, which adds value overall and unloads a brain with tons of staff.
+## Obsidian
+
+My tool of choice helping to harness daily chaos is a free markdown-based editor [**Obsidian**](https://obsidian.md/). If you're interested why I choose Obsidian over Notion, Logseq, Apple Notes and other tools see [this post](https://dushkin.tech/posts/my_productivity_tools/).
+
+TLDR: Obsidian is fast and secure (everything is stored locally), has excellent mobile apps, has a great plugin ecosystem, and seems like a high-quality product (I faced zero bugs for the past year). Although it's free and you can sync files via any cloud storage, it's somewhat non-trivial to set it up for iOS. So, in the end, I bought a built-in Obsidian cloud sync solution for personal use, and for work, I use a different vault which lives only on a corp laptop.
 
 ## The workflow
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l5n8VvumNrc?si=AT_dJbYTBj4YHuHa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-_Video with process in the nutshell: creating tasks, list of most imporatant tasks, archiving tasks_
-
-My tool of choice helping to harness daily chaos is a free markdown-based editor [**Obsidian**](https://obsidian.md/). In [this post](https://dushkin.tech/posts/my_productivity_tools/), I'm covering why I choose Obsidian over Notion, Logseq, Apple Notes and other tools.
-
-TLDR: it's fast and secure (everything is stored locally), has excellent mobile apps, has a great plugin ecosystem, and seems like a high-quality product (I faced zero bugs for the past year). Although it's free and you can sync files via any cloud storage, it's somewhat non-trivial to set it up for iOS. So, in the end, I bought a built-in Obsidian cloud sync solution for personal use, and for work, I use a different vault which lives only on a corp laptop.
+_Video with process in the nutshell: creating tasks, listing most important tasks, archiving tasks_
 
 The process is focused around:
 
@@ -60,26 +60,28 @@ Each item is a project's title and a list of related tasks. Each project's title
 - Short description,
 - Links to documents,
 - Timelines,
-- Involved collegues,
+- Involved colleagues,
 - etc.
 
 ### Completed tasks
 
-Using "Archiver"'s plugin command all completed tasks are automatically moved to this designated page. This is a great help during performance review and overall helps when you want to remember what's done and what's left to do.
+"Archiver" plugin moves completed tasks to this designated page. This is a great help during performance review and overall helps when you want to remember what's done and what's left to do.
 
 ## Other aspects of Obsidian I use
 
-- I make extensive use of Obsidian's **inter-linking** feature, which organizes references quickly and effectively.
-  - By inter-linking I mean wrapping topic, peoples, subjects, etc. in `[[]]` so it becomes a link to a page. For instance, during the meeting I can write to a fresh daily note a few lines about some project like: "Before the launch of `[[SDP]]` project we need to complete a security review". And once I'll open SDP's project page I immediatly will see a backlink to this note. Very helpful!
+Plugins:
+
 - "**Daily Note**" plugin: it's great core plugin which creates a new note everyday so you don't need to think twice when you need quickly to note something. So, you can save a bit more brain power.
-- “**Task Archiver**” community plugin: it helps gathering completed tasks in dedicated page. I configured it to move completed tasks to a different page like this:
+- "**Task Archiver**" community plugin: it helps gathering completed tasks in a dedicated page. I configured it to move completed tasks to a different page like this:
   - ![Archiver plugin setup](/img/for_posts/task_management/task_managment_archiver_setup.png)
 - "**Omnisearch**" community plugin: it gives in-text search capabilities. Hope it will make to core since text search is essential for such app IMHO.
 - "**Outliner**" community plugin: it gives almost everything I need for operations with lists like shortcuts, indentation lines, etc. With this Obsidian becomes a proper outliner.
 
+Also I make extensive use of Obsidian's **inter-linking** feature, which organizes references quickly and effectively. By inter-linking I mean wrapping topic, peoples, subjects, etc. in `[[]]` so it becomes a link to a page. For instance, during the meeting I can write to a fresh daily note a few lines about some project like: "Before the launch of `[[SDP]]` project we need to complete a security review". And once I'll open SDP's project page I immediatly will see a backlink to this note. Very helpful!
+
 ## Conclusion
 
-In the process outlined above, I've aimed to strike the right balance between the complexity of the workflow and the value it delivers. I hope it'll resonates with you and will help enhance your productivity as well.
+In the process outlined above, I've aimed to strike the right balance between the complexity of the workflow and the value it delivers. Hope it will hit the right spot for you too!
 
 ## References
 
