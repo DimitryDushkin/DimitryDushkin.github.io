@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe709cffa0dadab730d2f34bd6d6d6c9578d441b3ae8376d8c001af8987de850
-size 841
+data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' xmlns%3Axlink='http%3A//www.w3.org/1999/xlink' viewBox='0 0 1827 624'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='.5'%3E%3C/feGaussianBlur%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'%3E%3C/feFuncA%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23b)' preserveAspectRatio='none' height='100%25' width='100%25' xlink%3Ahref='data%3Aimage/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAFCAIAAAAR2vFGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlUlEQVR4nE3KSwrCMBQAwBypaZM075uXj6mIIMWNO+9/C3EhCLMct2XUPpddktjjnOfzGEcPVJPUyHWFElDbbboApGMuO0cysgGlJf6OxDWQbaDAhCrOJ4DSlkSRjNsllxbJfBafZckSUEkwIju/o8xrEItsUDpaD1R8lhX0t3VDc9Db/f3S855Ky6Whjci2gv7b6/gAC9ot69vNCPEAAAAASUVORK5CYII='%3E%3C/image%3E%3C/svg%3E

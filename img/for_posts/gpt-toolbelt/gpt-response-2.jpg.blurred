@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:317ad14f54a19feb0c769a1bf3341c2b7705fe9fc95521e903425098ab1cc2c9
-size 848
+data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' xmlns%3Axlink='http%3A//www.w3.org/1999/xlink' viewBox='0 0 961 355'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='.5'%3E%3C/feGaussianBlur%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'%3E%3C/feFuncA%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23b)' preserveAspectRatio='none' height='100%25' width='100%25' xlink%3Ahref='data%3Aimage/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAFCAIAAAAR2vFGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAnElEQVR4nG2I3Q6CIBhAeackki5SQJT4a5oCH9bWVrre/wWaddt2Ls45yHswJig1KDUaHerKcOYYs5w7wR0tm2J3wkWF6LGlVJZlQw6CUokxw/svmGFcE8LJQRDCkbagLRiXjcvaZutn62fjs/Gbawu/g/LtHWENaUl5TXmNsERYpviMsIT0CmnL/vpAl/7eqkl2Y3cOrZr+IuTwAa/eOi96RIQrAAAAAElFTkSuQmCC'%3E%3C/image%3E%3C/svg%3E
