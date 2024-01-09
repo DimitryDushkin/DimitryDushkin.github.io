@@ -10,7 +10,7 @@ layout: layouts/post.njk
 image: /img/for_posts/rxjs_example/cover.png
 ---
 
-There are certain tasks for which RxJS is ideally suited. One such task is combining multiple "streams" of events to create a particular gesture. In this article, we will step-by-step write a universal React hook that allows attaching a movement gesture to any HTML element.
+There are certain tasks for which RxJS (and overall reactive programming paradigm) is ideally suited. One such task is combining multiple "streams" of events to create a particular gesture. In this article, we will step-by-step write an universal React hook that allows attaching a movement gesture to any HTML element.
 
 ## Why Choose These Approaches
 
@@ -18,11 +18,9 @@ It is possible to combine 3 event emitters (for pointerdown, pointermove, pointe
 
 Instead of `MouseEvents`, the relatively new standard `PointerEvents` is used, which eliminates the need for writing specific code for mobile devices.
 
-The code also uses TypeScript, because now TS is the only way to write a somewhat large project with a lifespan of more than a year.
-
 ## What We Get in the End
 
-In the end, we get an application like this - https://codesandbox.io/p/sandbox/react-usedraggable-hook-on-rxjs-with-composable-refs-vz3pp
+We'll get an application like this - https://codesandbox.io/p/sandbox/react-usedraggable-hook-on-rxjs-with-composable-refs-vz3pp
 
 ![Example screenshot](/img/for_posts/rxjs_example/1.png)
 You will be able to move the grey div vertically.
@@ -215,27 +213,27 @@ return () => {
 };
 ```
 
-And this is actually a very important part of our RxJS-based solution - we unsubscribed from the `drag$` event stream, but in fact, since it consists of a combination of three other streams, there was also an unsubscribe from these three streams (reminding you, these are `up$, down$, move$`). And this is one of the key selling points of RxJS-based solutions compared to working with traditional **Event Emitter** - in **Event Emitter** there is no cascading unsubscribe from events, and you have to handle this yourself in the code, and it is often difficult to keep track of.
+And this is actually a very important part of our RxJS-based solution - we unsubscribed from the `drag$` event stream, but in fact, since it consists of a combination of three other streams, there was also an unsubscribe from these three streams (r`up$, down$, move$`). And this is one of the key selling points of RxJS-based solutions compared to working with traditional **Event Emitter** - in **Event Emitter** there is no cascading unsubscribe from events, and you have to handle this yourself in the code, and it is often difficult to keep track of.
 
 The second key advantage of RxJS over the usual **Event Emitter** is the ability to test all the components of the solution: the beginning of the subscription to events, the sequence of events between several streams, the values emitted by the streams at one time or another, and the end of the subscription to events.
 
 ## How the Solution Can Be Improved Further
 
-Add support for pointercancel events and others to cancel the gesture not only by lifting the pointer, but also by an incoming call, for example. You can learn more about working with PointerEvents and gestures in general in the lecture I prepared for the School of Interface Development at Yandex - https://www.youtube.com/watch?v=VZAcd2svW7w
+Add support for `pointercancel`` events and others to cancel the gesture not only by lifting the pointer, but also by an incoming call, for example. You can learn more about working with PointerEvents and gestures in general in the lecture I prepared for the School of Interface Development at Yandex - https://www.youtube.com/watch?v=VZAcd2svW7w
 
 It is also worth writing tests that take into account not only the order of events but also specific movement values. That is, to test that if there were two pointermove events with a 10px shift each, then the total shift will be 20px.
 
-## Advice
+## Conclusion
 
-Yes, to solve not the most complex task, we touched on so many topics: react, hook, refs, useEffect, rxjs, marbles, jest, and many others. Someone will say that this is over-engineering (i.e., too complex a solution to a simple problem) and they may be right, it all depends on the context!
+Yes, to solve not the most complex problem, we touched on so many topics: react, hook, refs, useEffect, rxjs, marbles, jest, and many others. Someone will say that this is over-engineering (i.e., too complex a solution to a simple problem) and they may be right, it all depends on the context!
 
-If you need an object movement gesture, you can use one of a dozen libraries, but as a rule, 90% of the code that you will not use will come along. Typically, they do not have tests. However, if you have a startup, then this is a quite workable option.
+If you need an object movement gesture, you can use one of a dozen libraries, but usually 90% of the code that you will include to JS bundle won't be used (since it's usually a generic solution for various use cases). Typically, they do not have tests. However, if you have a startup, then this is a quite workable option.
 
-You could have avoided using RxJS, but I can't imagine a solution that would be read and understood faster, would be more isolated, and for which it would be easier to write tests. If you, dear reader, know of such a thing and can show it - I sincerely wish to see it! Write about it in the comments.
+You could have avoided using RxJS, but I can't imagine a solution that would be read and understood faster, would be more isolated, and for which it would be easier to write tests. If you, dear reader, know of such a thing - tell me in [twitter/x](https://twitter.com/sky2high0)! I sincerely wish to see it!
 
 ## Resources for Learning RxJS
 
-- ["The first" site](https://reactivex.io/) on Rx technology with a collection of basic implementations and a description of the approach Not very understandable, but comprehensive.
-- [An excellent and understandable reference for many RxJS operators](https://www.learnrxjs.io/). I open it very often.
+- ["The first" site](https://reactivex.io/) on Rx technology with a collection of basic implementations and a description of the approach. It's not very understandable, but comprehensive.
+- [An excellent and understandable reference for many RxJS operators](https://www.learnrxjs.io/). I used to open it quite often.
 - [An introduction to RxJS through writing your own implementation of the approach in regular JS In English](https://dev.to/creeland/intro-to-rxjs-concepts-with-vanilla-javascript-4aji). The examples in JS are understandable and simple.
 - [Blog of Ben Lash](https://benlesh.medium.com/) - the main maintainer of the Github repo RxJS.
