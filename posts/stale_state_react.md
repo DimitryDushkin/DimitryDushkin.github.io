@@ -1,6 +1,6 @@
 ---
 title: How to fix stale React useState's state in a callback
-description: Simple and useful JS snippet
+description: useRef based solution to fix stale state in React callback functions
 date: 2024-04-04
 tags:
   - react
