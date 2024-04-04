@@ -16,7 +16,7 @@
           {% for tag in post.data.tags %}
             {% if (loop.index > 1) %}
               {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-              <a href="{{ tagUrl | url }}" class="tag">#{{tag}}</a>
+              <a href="{{ tagUrl | url }}" class="pill">#{{tag}}</a>
             {% endif %}
           {% endfor%}
         </p>

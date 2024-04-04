@@ -21,7 +21,7 @@
 
 const { JSDOM } = require("jsdom");
 const cspHashGen = require("csp-hash-generator");
-const syncPackage = require("browser-sync/package.json");
+// const syncPackage = require("browser-sync/package.json");
 const fs = require("fs");
 const CSP = require("../_data/csp");
 
@@ -33,15 +33,15 @@ const CSP = require("../_data/csp");
 
 // Allow the auto-reload script in local dev. Would be good to get rid of this magic
 // string which would break on ungrades of 11ty.
-const AUTO_RELOAD_SCRIPTS = [
-  quote(
-    cspHashGen(
-      "//<![CDATA[\n    document.write(\"<script async src='/browser-sync/browser-sync-client.js?v=" +
-        syncPackage.version +
-        '\'><\\/script>".replace("HOST", location.hostname));\n//]]>'
-    )
-  ),
-];
+// const AUTO_RELOAD_SCRIPTS = [
+//   quote(
+//     cspHashGen(
+//       "//<![CDATA[\n    document.write(\"<script async src='/browser-sync/browser-sync-client.js?v=" +
+//         syncPackage.version +
+//         '\'><\\/script>".replace("HOST", location.hostname));\n//]]>'
+//     )
+//   ),
+// ];
 
 function quote(str) {
   return `'${str}'`;
@@ -61,9 +61,9 @@ const addCspHash = async (rawContent, outputPath) => {
       element.setAttribute("csp-hash", hash);
       return quote(hash);
     });
-    if (isDevelopmentMode()) {
-      hashes.push.apply(hashes, AUTO_RELOAD_SCRIPTS);
-    }
+    // if (isDevelopmentMode()) {
+    //   hashes.push.apply(hashes, AUTO_RELOAD_SCRIPTS);
+    // }
 
     content = dom.serialize();
 
@@ -73,7 +73,8 @@ const addCspHash = async (rawContent, outputPath) => {
     const filePathPrettyURL = filePath.slice(0, -10); // blog/index.html ->  /blog/
     try {
       const headers = fs.readFileSync(headersPath, { encoding: "utf-8" });
-      const regExp = /(# \[csp headers\][\r\n]+)([\s\S]*)(# \[end csp headers\])/;
+      const regExp =
+        /(# \[csp headers\][\r\n]+)([\s\S]*)(# \[end csp headers\])/;
       const match = headers.match(regExp);
       if (!match) {
         throw `Check your _headers file. I couldn't find the text block for the csp headers:
