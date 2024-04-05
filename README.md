@@ -1,10 +1,12 @@
 # TLDR
 
 ```bash
-sh .persistimages.sh
 npm run build
 git add -A
 git commit --amend -m "new article"
+sh .persistimages.sh
+git lfs push origin main --all
+git push
 ```
 
 # eleventy-high-performance-blog

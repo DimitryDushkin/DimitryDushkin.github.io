@@ -71,7 +71,7 @@ First of all, **not everyone needs to care about performance**, especially on ea
 
 ## Conclusion
 
-Personally, I decided to go with Bun for my pet project since I use SQLite a lot, plan to add a front-end and I'm not ready spend additional time resolving Deno's incompatibilities with Node.js. However, I use Deno for Jupyter Notebooks, especially for prototyping with LLM and third-party APIs.
+Personally, I decided to go with Bun for my pet project since I use SQLite a lot, plan to add a front-end and I'm not ready spend additional time resolving Deno's incompatibilities with Node.js. However, I use occasionaly Deno in Jupyter Notebooks for prototyping with LLM and third-party APIs.
 
 ## Links
 
