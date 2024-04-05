@@ -96,7 +96,6 @@ Bun is fast thanks to Apple’s JS engine, JavaScriptCore. Bun also has far bett
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Overall, judging from toolset Bun is more full-stack focused and Deno is more back-end focused.&lt;/p&gt;
 &lt;h2 id=&quot;on-performance&quot;&gt;On performance &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#on-performance&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;A few words on real-life performance. To be honest, it&#39;s a big separate topic, but short summary might sound like this.&lt;/p&gt;
 &lt;p&gt;First of all, &lt;strong&gt;not everyone needs to care about performance&lt;/strong&gt;, especially on early stages of a product. Things like reliability, community support, compatibility with Node.JS ecosystem, developer experience (tooling) are much-much more important for the initial success of a product than raw performance. Still, if it&#39;s critical for your app to be as fast as possible, here is a short guide.&lt;/p&gt;
