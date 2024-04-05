@@ -5,12 +5,117 @@
 	
 	<link href="https://dushkin.tech/feed/feed.xml" rel="self"/>
 	<link href="https://dushkin.tech"/>
-	<updated>2024-04-04T00:00:00Z</updated>
+	<updated>2024-04-05T00:00:00Z</updated>
 	<id>https://dushkin.tech</id>
 	<author>
 		<name>Dmitrii Dushkin</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Overview of new Javascript/Typescript runtimes: Bun and Deno</title>
+		<link href="https://dushkin.tech/posts/bun_and_deno_js_runtimes/"/>
+		<updated>2024-04-05T00:00:00Z</updated>
+		<id>https://dushkin.tech/posts/bun_and_deno_js_runtimes/</id>
+		<content type="html">
+		  &lt;p&gt;While procrastinating on my pet project I finally tried “new age” JS/Typescript runtimes: Bun and Deno. Here is my short overview.&lt;/p&gt;
+&lt;h2 id=&quot;intro&quot;&gt;Intro &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#intro&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Why might you want to consider using Bun or Deno?&lt;/strong&gt; They both promise more streamlined development experience thanks to native TypeScript support, faster overall runtime and built-in collection of helpful tools like code linting, formatting, test runner, package manager, etc. Deno also provides unique security feature: permissions over disk, network, systems calls, and environment variables.&lt;/p&gt;
+&lt;p&gt;Here is my personal experience on using both.&lt;/p&gt;
+&lt;h2 id=&quot;bun&quot;&gt;Bun &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#bun&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/bun_deno/bun.png&quot; alt=&quot;Bun logo&quot; /&gt;&lt;br /&gt;
+Bun is fast thanks to Apple’s JS engine, JavaScriptCore. Bun also has far better compatibility with existing Node.JS ecosystem thanks to using standard &lt;code&gt;node_modules&lt;/code&gt;, &lt;code&gt;package.json&lt;/code&gt;, etc. Seems like a solid alternative to &lt;code&gt;ts-node&lt;/code&gt; (if you want your Node.JS app on Typescript). It has small caveats (like missing full support for brotli compression), but overall the experience was smooth.&lt;/p&gt;
+&lt;p&gt;Bun&#39;s HTTP(s) server module is based on extremely fast uWebSockets library &lt;a href=&quot;https://github.com/uNetworking/uWebSockets/discussions/1466#discussioncomment-3114410&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://github.com/oven-sh/bun/tree/182b90896f67a8e4979b9c415e91a23ec337c281/packages/bun-uws&quot;&gt;2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Worth to mention that there is &lt;a href=&quot;https://elysiajs.com/&quot;&gt;Elysia&lt;/a&gt; framework which is based on Bun. In a nutshell, it&#39;s web-server with a helpful capability of producing typed response, and types are shared between server and client. This capability is also called &lt;em&gt;&amp;quot;end-to-end type safety&amp;quot;&lt;/em&gt;. It&#39;s similar to tRPC, but with Express.js-like API and faster by default thanks to Bun.&lt;/p&gt;
+&lt;h2 id=&quot;deno&quot;&gt;Deno &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#deno&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/bun_deno/deno.png&quot; alt=&quot;Deno logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Deno is slower in terms of raw performance (since it uses V8), but it provided a positive initial impression. Plain TypeScript code just worked!&lt;/p&gt;
+&lt;p&gt;Until I tried to use Prisma with it. Prisma is a great ORM (abstraction layer for various databases), but it uses small hack over &lt;code&gt;node_modules&lt;/code&gt; to make generated code to work seamlessly. That’s where Deno stopped working. It uses custom cache for downloaded packages (e.g. not using &lt;code&gt;node_modules&lt;/code&gt;) and has no support for CommonJS exports (&lt;code&gt;require()&lt;/code&gt; function) in app’s source code. Unless you use paid “cloud” Prisma service you won’t be able to use Deno.&lt;/p&gt;
+&lt;p&gt;On Deno-focused libraries. It feels like Deno took its big shot 2 years ago, and since then, many 3rd party libraries have been abandoned. TBH I’m not sure that such distancing from Node.JS and npm will be a good service for Deno.&lt;/p&gt;
+&lt;p&gt;On a positive side Deno can be used in Jupyter Notebooks! Which is perfect for prototyping things especially with LLM and 3rd party APIs.&lt;/p&gt;
+&lt;p&gt;I also love Deno’s idea of limiting by default network, reading env variables and others. &lt;strong&gt;It’s a great foundation for privacy first applications&lt;/strong&gt;. I think many apps with community plugins support (like my favorite note taking app, Obsidian) , would benefit greatly if somehow they could adapt this model (or Deno itself) for 3rd party extensions.&lt;/p&gt;
+&lt;h2 id=&quot;comparison-(on-april-2024)&quot;&gt;Comparison (on April 2024) &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#comparison-(on-april-2024)&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;Bun&lt;/th&gt;
+&lt;th&gt;Deno&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;HTTP server&lt;/strong&gt; speed&lt;/td&gt;
+&lt;td&gt;2-3x faster&lt;/td&gt;
+&lt;td&gt;Slower&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sqlite3 speed&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2.5x faster than Deno, almost 4x faster than Node.JS&lt;/td&gt;
+&lt;td&gt;Slower&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Multi-threading&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Has &lt;a href=&quot;https://bun.sh/docs/api/workers&quot;&gt;Web Workers API&lt;/a&gt; support, but no memory sharing between threads&lt;/td&gt;
+&lt;td&gt;Has &lt;a href=&quot;https://docs.deno.com/runtime/manual/runtime/workers&quot;&gt;Web Workers API&lt;/a&gt; support and shared memory&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Node.JS like Cluster (more on that below&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Node.JS ecosystem&lt;/strong&gt; compatibility&lt;/td&gt;
+&lt;td&gt;Better&lt;/td&gt;
+&lt;td&gt;Worse: own modules import syntax, no __dirname support, no CommonJS support, essentialy no &lt;code&gt;node_modules&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Built-In Typescript support&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tooling&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Package manager (npm replacement), test runner, JS and CSS bundler&lt;/td&gt;
+&lt;td&gt;Linter, formatter, built-in Typescript type checker, package manager, test runner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Same as Node.JS&lt;/td&gt;
+&lt;td&gt;Much better thanks to core mechanisms of limiting network, system calls, disk, environments reads and writes, etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Avarage RAM usage&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Almost twice lower than Deno&lt;/td&gt;
+&lt;td&gt;Similar to Node.JS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Ownership&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Both venture capital backed (yes, there is always a risk projects development might be dropped)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Overall, judging from toolset Bun is more full-stack focused and Deno is more back-end focused.&lt;/p&gt;
+&lt;h2 id=&quot;on-performance&quot;&gt;On performance &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#on-performance&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A few words on real-life performance. To be honest, it&#39;s a big separate topic, but short summary might sound like this.&lt;/p&gt;
+&lt;p&gt;First of all, &lt;strong&gt;not everyone needs to care about performance&lt;/strong&gt;, especially on early stages of a product. Things like reliability, community support, compatibility with Node.JS ecosystem, developer experience (tooling) are much-much more important for the initial success of a product than raw performance. Still, if it&#39;s critical for your app to be as fast as possible, here is a short guide.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If your app is not that CPU-intensive&lt;/strong&gt;, Bun is a good choice since it almost 6 times faster than Node.JS on a single instance (win depends on a case, but it&#39;s always faster). Deno is also fine, since it&#39;s 2-3 times faster than Node.JS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If your app is CPU-intensive&lt;/strong&gt;, the simplest way is to use Node.JS Cluster API which is a wrapper over creating isolated instances of the same app. It&#39;s memory heavy (since processes are isolated), but still gives a good performance boost. Both Deno and Bun doesn&#39;t have such API. It can be mitigated by using higher-level solutions like load balancers (for instance &lt;a href=&quot;https://gobetween.io/index.html&quot;&gt;GoBetween&lt;/a&gt;), but it&#39;s a fairly more complex solution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If your app is CPU and memory intensive&lt;/strong&gt; (e.g. you&#39;re working with large datasets) for all runtimes you can leverage Web Workers API which provides multi-threading capabilities. It will require manual separation of code chunks that should and can be executed in a separate threads, but it gives a much lower memory overhead since there is still one instance of a runtime. In this case Deno might be a better choice since it supports shared memory primitives (SharedArrayBuffer). However, Bun might be fine as well if don&#39;t need to share data between threads.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#conclusion&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Personally, I decided to go with Bun for my pet project since I use SQLite a lot, plan to add a front-end and I&#39;m not ready spend additional time resolving Deno&#39;s incompatibilities with Node.js. However, I use Deno for Jupyter Notebooks, especially for prototyping with LLM and third-party APIs.&lt;/p&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/bun_and_deno_js_runtimes/#links&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://snyk.io/blog/javascript-runtime-compare-node-deno-bun/&quot;&gt;Nice comparison article between NodeJS, Bun and Deno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/deno-the-complete-reference/node-js-vs-deno-vs-bun-benchmark-for-a-real-world-case-jwt-postgres-pdf-gen-9fbd94bb9a83&quot;&gt;Another good comparison with memory usage stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.hexagon.56k.guru/posts/deno-vs-bun-vs-node/&quot;&gt;Features table comparison&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/node/comments/13oqbvi/i_have_done_a_full_benchmark_of_a_post_rest_api/&quot;&gt;Benchmark of Bun, Deno, Node.JS and Go including cluster mode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+			
+		</content>
+	</entry>
 	
 	<entry>
 		<title>How to fix stale React useState&#39;s state in a callback</title>
