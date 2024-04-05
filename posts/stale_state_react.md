@@ -27,7 +27,7 @@ export default function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [state, setState] = useState("");
 
-  console.log("State's value on render =", value);
+  console.log("State's value on render =", state);
 
   // This function is created each time on every re-render
   // So it holds a correct state value
@@ -52,7 +52,7 @@ export default function App() {
           so `onCloseStart` will have a "stale" value of `callbackFn`
       */}
       <Modal open={isOpen} options={modalOptions}>
-        <Button onClick={() => setValue("new value")}>
+        <Button onClick={() => setState("new value")}>
           Update state's value
         </Button>
         <Button onClick={() => setIsOpen(false)}>Hide modal</Button>
@@ -60,6 +60,19 @@ export default function App() {
     </div>
   );
 }
+```
+
+Console output:
+
+```
+// Click on "Show modal"
+State's value on render =
+// Click on "Update value"
+State's value on render = new value
+// Click on "Hide modal"
+// (!!!) State's value is still empty inside callback
+State value inside callbackFn =
+State's value on render = new value
 ```
 
 ## Solution
@@ -70,6 +83,8 @@ To address the stale state within `callbackFn`, we utilize `useRef` to keep the 
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [state, setState] = useState("");
+
+  console.log("State's value on render =", state);
 
   const callbackFn = () => {
     console.log("In callback state =", state);
@@ -86,15 +101,10 @@ export default function App() {
     <div className="App">
       <Button onClick={() => setIsOpen(true)}>Show modal</Button>
       <Modal open={isOpen} options={modalOptions}>
-        <Button onClick={() => setState("foo")}>Set state</Button>
-        <Button
-          onClick={() => {
-            setIsOpen(false);
-            console.log("state on hide click =", state);
-          }}
-        >
-          Hide modal
+        <Button onClick={() => setState("new value")}>
+          Update state's value
         </Button>
+        <Button onClick={() => setIsOpen(false)}>Hide modal</Button>
       </Modal>
     </div>
   );
