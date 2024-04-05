@@ -55,8 +55,6 @@ I also love Deno’s idea of limiting by default network, reading env variables 
 | **Avarage RAM usage**                         | Almost twice lower than Deno                                                                          | Similar to Node.JS                                                                                                 |
 | **Ownership**                                 | Both venture capital backed (yes, there is always a risk projects development might be dropped)       |                                                                                                                    |
 
-Overall, judging from toolset Bun is more full-stack focused and Deno is more back-end focused.
-
 ## On performance
 
 A few words on real-life performance. To be honest, it's a big separate topic, but short summary might sound like this.
