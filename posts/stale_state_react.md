@@ -79,7 +79,7 @@ export default function App() {
   callbackRef.current = callbackFn; // <-- the new line. Store the latest callbackFn on each re-render
 
   const modalOptions = {
-    onCloseStart: callbackRef.current, // <-- updated line
+    onCloseStart: () => callbackRef.current(), // <-- updated line
   };
 
   return (
