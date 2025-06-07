@@ -5,12 +5,84 @@
 	
 	<link href="https://dushkin.tech/feed/feed.xml" rel="self"/>
 	<link href="https://dushkin.tech"/>
-	<updated>2024-04-05T00:00:00Z</updated>
+	<updated>2025-06-07T00:00:00Z</updated>
 	<id>https://dushkin.tech</id>
 	<author>
 		<name>Dmitrii Dushkin</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Using Google Nest WiFi Pro with Vodafone Fiber Internet</title>
+		<link href="https://dushkin.tech/posts/vodafone_and_own_nest_wifi_pro_router/"/>
+		<updated>2025-06-07T00:00:00Z</updated>
+		<id>https://dushkin.tech/posts/vodafone_and_own_nest_wifi_pro_router/</id>
+		<content type="html">
+		  &lt;p&gt;Setting up own router (specifically Google Nest Wifi Pro) instead of one provided by Vodafone took quite a while to connect all the dots so I decided to share a knowledge.&lt;/p&gt;
+&lt;h2 id=&quot;theory&quot;&gt;Theory &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/vodafone_and_own_nest_wifi_pro_router/#theory&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First, the theory. If, for instance, you want to setup Wifi mesh network, or you want a combined smart and wifi hub, you&#39;ll need to use own router instead the one which provider gave. In this case they suggest such setup:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fiber network &amp;lt;-&amp;gt; ONT device (modem) &amp;lt;-&amp;gt; Provider&#39;s WiFi router &amp;lt;-&amp;gt; Your router&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This configuration is easy and quick to set up by connecting a LAN port from the provider&#39;s router to your router&#39;s WAN port. However, this setup has several issues:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Double NAT&lt;/strong&gt;: Requests pass through an extra network hop because both routers perform Network Address Translation (NAT). This can create issues with remote access, such as accessing your PS5 via PlayStation Portal or cause problems with online gaming.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Energy Efficiency&lt;/strong&gt;: Provider-supplied routers are often relatively power-hungry, even though all you really need is basic VLAN tagging and network switching, which can be done by your router or a managed network switch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Privacy&lt;/strong&gt;: Using your own hardware gives you greater visibility and control over your network compared to using devices provided by your internet provider.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ideally, you would directly connect your ONT to your router, but some routers, including Google Nest WiFi Pro, don&#39;t support VLAN tagging, which Vodafone requires. Vodafone uses VLAN tagging (ID 911) to distinguish internet traffic from other services like Voice-over-IP and from other providers. A managed network switch can handle VLAN tagging, giving you the following optimized setup:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fiber network &amp;lt;-&amp;gt; ONT device (modem) &amp;lt;-&amp;gt; Managed network switch &amp;lt;-&amp;gt; Your router&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here, the router handles routing, DNS, and IP addressing, while the managed switch manages VLAN tagging.&lt;/p&gt;
+&lt;p&gt;Digramm describing network connections:&lt;br /&gt;
+&lt;img src=&quot;https://dushkin.tech/img/for_posts/vodafone/vodafone_network_diagram.png&quot; alt=&quot;Digramm describing network connections&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;practice&quot;&gt;Practice &lt;a class=&quot;direct-link&quot; href=&quot;https://dushkin.tech/posts/vodafone_and_own_nest_wifi_pro_router/#practice&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So, how to make it work?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Contact your internet provider to get PPPoE credentials. It&#39;s a set of login and password which authenticate your connection to internet provider.&lt;/li&gt;
+&lt;li&gt;Buy a &lt;strong&gt;managed&lt;/strong&gt; switch which has VLAN tagging support. I picked TP-Link TL-SG608E switch since I have good experience with other TP-Link product throughout the years.&lt;/li&gt;
+&lt;li&gt;Setup managed switch: make it to accept and send VLAN tagged network packets through port 1, and untagged on port 2. For this:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Downloaded TP-Link &amp;quot;East Smart Configuration Utility&amp;quot; which works with TP-Link TL-SG608E or open web UI of switch (my switch had adress &lt;a href=&quot;http://192.168.86.36/&quot;&gt;http://192.168.86.36/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Connect TP-Link TL-SG608E to your router via ethernet cable or directly to your PC&lt;/li&gt;
+&lt;li&gt;Update switch config (see screenshots). VLAN ID 911 -- is Vodafone specific web traffic VLAN ID. If you use other provider, you can ask support for correct VLAN ID. Config:
+&lt;ul&gt;
+&lt;li&gt;On VLAN - &amp;quot;802.1Q VLAN&amp;quot; tab: Port 1 VLAN ID 911 tagged and Port 2 VLAN 911 untagged (you need to click on port&#39;s image),&lt;/li&gt;
+&lt;li&gt;On VLAN - &amp;quot;802.1Q PVID&amp;quot; tab: Port 2 PVID 911.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://dushkin.tech/img/for_posts/vodafone/tplink_vlan_1.png&quot; alt=&quot;TP-Link VLAN settings 1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://dushkin.tech/img/for_posts/vodafone/tplink_vlan_2.png&quot; alt=&quot;TP-Link VLAN settings 2&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Setup Google WiFi Pro to directly connect to provider. That was time consuming since updating existing setup from DHCP to PPPoE is quite unstable.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Open Google Home mobile app&lt;/li&gt;
+&lt;li&gt;Go to Wi-Fi - Network Settings - Advanced Networking - WAN connection&lt;/li&gt;
+&lt;li&gt;NB! Disconnect your phone from mobile network&lt;/li&gt;
+&lt;li&gt;That&#39;s the tricky part. Until router has internet access, you can&#39;t update these settings. So you need to plug off ethernet cable from router and wait until warning &amp;quot;You cann edit these settings at the moment&amp;quot; will go away. It took me several iterations and around 20 minutes connecting-diconnecting ethernet cable, returning back and forth from this menu section in app until it finally allowed to change settings. And even after this it didn&#39;t save settings with error &amp;quot;Oops, ...&amp;quot;. So I did a few more cycles to try to save it.&lt;/li&gt;
+&lt;li&gt;Enter PPPoE credentials provider gave you in step 1.&lt;/li&gt;
+&lt;li&gt;Hit OK and Save icon in right top corner (at least in iOS app).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Connect all together:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;ONT connects to Port 1 switch&lt;/li&gt;
+&lt;li&gt;Your router&#39;s WAN port (Nest WiFi Pro in my case) to Switcher&#39;s Port 2&lt;/li&gt;
+&lt;li&gt;If you want to utilise other switch&#39;s ports for local network device, you need to connect router&#39;s LAN port to Switcher&#39;s Port 3 as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And it should just work.&lt;/p&gt;
+&lt;p&gt;Good luck with optimizing your local network!&lt;/p&gt;
+
+			
+		</content>
+	</entry>
 	
 	<entry>
 		<title>Overview of new Javascript/Typescript runtimes: Bun and Deno</title>
